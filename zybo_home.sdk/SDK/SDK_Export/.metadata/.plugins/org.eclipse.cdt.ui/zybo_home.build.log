@@ -2,4 +2,19 @@
 **** Build of configuration Debug for project zybo_home ****
 
 make all 
-make: Nothing to be done for `all'.
+Building file: ../src/helloworld.c
+Invoking: ARM gcc compiler
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -I../../zybo_home_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.d" -o"src/helloworld.o" "../src/helloworld.c"
+Finished building: ../src/helloworld.c
+' '
+Building target: zybo_home.elf
+Invoking: ARM gcc linker
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../zybo_home_bsp/ps7_cortexa9_0/lib -o"zybo_home.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: zybo_home.elf
+' '
+Invoking: ARM Print Size
+arm-xilinx-eabi-size zybo_home.elf  |tee "zybo_home.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  69276	   1888	  16912	  88076	  1580c	zybo_home.elf
+Finished building: zybo_home.elf.size
+' '
