@@ -1,0 +1,56 @@
+
+<Root MajorVersion="0" MinorVersion="20" xmlns="" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Compositefile.xsd">
+
+  <CompositeFile CanBeSetAsTop="false" CanDisplayChildGraph="false" CompositeFileTopName="module_1" Part="xc7z010clg400-1">
+    <Description>A description of the composite file</Description>
+    <Generation Name="SYNTHESIS" State="GENERATED" Timestamp="1399088240"/>
+    <Generation Name="IMPLEMENTATION" State="GENERATED" Timestamp="1399088240"/>
+    <Generation Name="SIMULATION" State="RESET" Timestamp="1399086773"/>
+    <FileCollection Name="SOURCES" Type="SOURCES">
+      <Description>A description for this file collection</Description>
+      <File Name="module_1.mhs" Type="MHS">
+        <Description>This is MHS file</Description>
+        <Properties IsDisabled="false" IsEditable="true" IsTrackable="true" IsUserDisableable="false" IsVisible="true" Timestamp="1399087827"/>
+        <UsedIn Val="NONE"/>
+      </File>
+      <File Name="data/ps7_module_1_prj.xml" Type="PS7XML">
+        <Description>This is PS7 XML file</Description>
+        <Properties IsDisabled="false" IsEditable="true" IsTrackable="true" IsUserDisableable="false" IsVisible="false" Timestamp="1399087250"/>
+        <UsedIn Val="SYNTHESIS"/>
+      </File>
+      <File Name="implementation/module_1.ngc" Type="NGC">
+        <Description>This is NGC file</Description>
+        <Properties IsDisabled="false" IsEditable="false" IsTrackable="false" IsUserDisableable="false" IsVisible="true" Timestamp="1399088240"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+      </File>
+      <File Name="hdl/module_1.vhd" Type="VHDL">
+        <Description>This is VHDL file</Description>
+        <Properties IsDisabled="false" IsEditable="false" IsTrackable="true" IsUserDisableable="false" IsVisible="true" Timestamp="1399088207"/>
+        <UsedIn Val="SYNTHESIS"/>
+      </File>
+      <File Name="implementation/module_1_processing_system7_0_wrapper.ncf" Type="NCF">
+        <Description>This is NCF file</Description>
+        <Properties IsDisabled="false" IsEditable="false" IsTrackable="false" IsUserDisableable="true" IsVisible="true" Timestamp="1399088202"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+      </File>
+      <File Name="implementation/module_1_processing_system7_0_wrapper.ngc" Type="NGC">
+        <Description>This is NGC file</Description>
+        <Properties IsDisabled="false" IsEditable="false" IsTrackable="false" IsUserDisableable="false" IsVisible="true" Timestamp="1399088240"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+      </File>
+      <File Name="data/module_1.ucf" Type="UCF">
+        <Description>This is UCF file</Description>
+        <Properties IsDisabled="false" IsEditable="true" IsTrackable="true" IsUserDisableable="true" IsVisible="true" Timestamp="1399086773"/>
+        <UsedIn Val="NONE"/>
+      </File>
+      <File Name="data/module_1.ncf" Type="NCF">
+        <Description>This is NCF file</Description>
+        <Properties IsDisabled="false" IsEditable="false" IsTrackable="true" IsUserDisableable="true" IsVisible="false" Timestamp="1399088240"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+      </File>
+    </FileCollection>
+  </CompositeFile>
+
+</Root>

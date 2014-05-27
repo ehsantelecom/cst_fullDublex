@@ -1,0 +1,13 @@
+-p
+xc7z010clg400-1
+-lang
+vhdl
+-intstyle
+pa
+-toplevel
+no
+-ti
+module_1_i
+-msg
+__xps/ise/xmsgprops.lst
+module_1.mhs

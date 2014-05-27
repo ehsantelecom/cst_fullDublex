@@ -1,0 +1,8 @@
+INTSTYLE=pa
+INFILE=D:\zybo_home\zybo_home.runs\impl_1\module_1_stub_routed.ncd
+OUTFILE=D:\zybo_home\zybo_home.runs\impl_1\module_1_stub.bit
+FAMILY=Zynq
+PART=xc7z010-1clg400
+WORKINGDIR=D:\zybo_home\zybo_home.runs\impl_1
+LICENSE=WebPack
+USER_INFO=__0_0_0

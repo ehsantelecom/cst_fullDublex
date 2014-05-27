@@ -1,0 +1,97 @@
+Release 14.3 - Bitgen P.40xd (nt)
+Copyright (c) 1995-2012 Xilinx, Inc.  All rights reserved.
+Loading device for application Rf_Device from file '7z010.nph' in environment
+C:\Xilinx\14.3\ISE_DS\ISE\.
+   "module_1_stub" is an NCD, version 3.2, device xc7z010, package clg400, speed
+-1
+Opened constraints file module_1_stub.pcf.
+
+Fri May 02 23:43:02 2014
+
+C:\Xilinx\14.3\ISE_DS\ISE\bin\nt\unwrapped\bitgen.exe -w -intstyle pa module_1_stub_routed.ncd module_1_stub.bit module_1_stub.pcf 
+
+Summary of Bitgen Options:
++----------------------+----------------------+
+| Option Name          | Current Setting      |
++----------------------+----------------------+
+| Compress             | (Not Specified)*     |
++----------------------+----------------------+
+| Readback             | (Not Specified)*     |
++----------------------+----------------------+
+| CRC                  | Enable*              |
++----------------------+----------------------+
+| StartupClk           | Cclk*                |
++----------------------+----------------------+
+| DonePin              | Pullup*              |
++----------------------+----------------------+
+| ProgPin              | Pullup*              |
++----------------------+----------------------+
+| InitPin              | Pullup*              |
++----------------------+----------------------+
+| TckPin               | Pullup*              |
++----------------------+----------------------+
+| TdiPin               | Pullup*              |
++----------------------+----------------------+
+| TdoPin               | Pullup*              |
++----------------------+----------------------+
+| TmsPin               | Pullup*              |
++----------------------+----------------------+
+| UnusedPin            | Pulldown*            |
++----------------------+----------------------+
+| GWE_cycle            | 6*                   |
++----------------------+----------------------+
+| GTS_cycle            | 5*                   |
++----------------------+----------------------+
+| OverTempPowerDown    | Disable*             |
++----------------------+----------------------+
+| LCK_cycle            | NoWait*              |
++----------------------+----------------------+
+| Match_cycle          | NoWait               |
++----------------------+----------------------+
+| DONE_cycle           | 4*                   |
++----------------------+----------------------+
+| DonePipe             | Yes*                 |
++----------------------+----------------------+
+| Security             | None*                |
++----------------------+----------------------+
+| UserID               | 0xFFFFFFFF*          |
++----------------------+----------------------+
+| ActiveReconfig       | No*                  |
++----------------------+----------------------+
+| DCIUpdateMode        | AsRequired*          |
++----------------------+----------------------+
+| ICAP_Select          | Auto*                |
++----------------------+----------------------+
+| InitSignalsError     | Enable*              |
++----------------------+----------------------+
+| XADCPartialReconfig  | Disable*             |
++----------------------+----------------------+
+| XADCEnhancedLinearity | Off*                 |
++----------------------+----------------------+
+| JTAG_XADC            | Enable*              |
++----------------------+----------------------+
+| Disable_JTAG         | No*                  |
++----------------------+----------------------+
+| XADCPowerDown        | Disable*             |
++----------------------+----------------------+
+| Partial              | (Not Specified)*     |
++----------------------+----------------------+
+| USR_ACCESS           | None*                |
++----------------------+----------------------+
+| TimeStamp            | Default*             |
++----------------------+----------------------+
+| IEEE1532             | No*                  |
++----------------------+----------------------+
+| Binary               | No*                  |
++----------------------+----------------------+
+ *  Default setting.
+ ** The specified setting matches the default setting.
+
+There were 0 CONFIG constraint(s) processed from module_1_stub.pcf.
+
+
+Running DRC.
+DRC detected 0 errors and 0 warnings.
+Creating bit map...
+Saving bit stream in "module_1_stub.bit".
+Bitstream generation is complete.

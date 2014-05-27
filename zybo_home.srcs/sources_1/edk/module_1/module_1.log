@@ -1,0 +1,1865 @@
+=====================
+Opened log file
+=====================
+Created pcores directory
+=====================
+Opened log file
+=====================
+Xilinx Platform Studio (XPS)
+Xilinx EDK 14.3 Build EDK_P.40xd
+
+Xilinx EDK 14.3 Build EDK_P.40xd
+
+Copied C:/Xilinx/14.3/ISE_DS/EDK/data/xflow/bitgen_zynq.ut to etc directory
+Copied file C:/Xilinx/14.3/ISE_DS/EDK/data/xflow/fast_runtime_zynq.opt to etc
+directory
+
+Overriding IP level properties ...
+
+Computing clock values...
+
+Performing IP level DRCs on properties...
+
+Running DRC Tcl procedures for OPTION IPLEVEL_DRC_PROC...
+
+Checking platform address map ...
+Created backup of etc/bitgen.ut to etc/bitgen.ut.virtex5
+Copied C:/Xilinx/14.3/ISE_DS/EDK/data/xflow/bitgen_zynq.ut to etc directory
+Created backup of etc/fast_runtime.opt to etc/fast_runtime.opt.virtex5
+Copied file C:/Xilinx/14.3/ISE_DS/EDK/data/xflow/fast_runtime_zynq.opt to etc
+directory
+No changes to be saved in MHS file
+Saved project XMP file
+Saved Make file
+Xilinx Platform Studio (XPS)
+Xilinx EDK 14.3 Build EDK_P.40xd
+Copyright (c) 1995-2012 Xilinx, Inc.  All rights reserved.
+
+Assigned Driver generic 1.00.a for instance processing_system7_0
+processing_system7_0 has been added to the project
+INFO:EDK:3901 - please connect bus interface, set up port and generate address manually
+Writing filter settings....
+Done writing filter settings to:
+	D:\zybo_home\zybo_home.srcs\sources_1\edk\module_1\etc\module_1.filters
+Done writing Tab View settings to:
+	D:\zybo_home\zybo_home.srcs\sources_1\edk\module_1\etc\module_1.gui
+Writing filter settings....
+Done writing filter settings to:
+	D:\zybo_home\zybo_home.srcs\sources_1\edk\module_1\etc\module_1.filters
+Done writing Tab View settings to:
+	D:\zybo_home\zybo_home.srcs\sources_1\edk\module_1\etc\module_1.gui
+=====================
+Opened log file
+=====================
+=====================
+Opened log file
+=====================
+Xilinx Platform Studio (XPS)
+Xilinx EDK 14.3 Build EDK_P.40xd
+
+Xilinx EDK 14.3 Build EDK_P.40xd
+
+WARNING:EDK - IPNAME: processing_system7, INSTANCE: processing_system7_0 -
+   Pre-Production version not verified on hardware for architecture 'zynq' -
+   D:\zybo_home\zybo_home.srcs\sources_1\edk\module_1\module_1.mhs line 28 
+WARNING:EDK - IPNAME: processing_system7, INSTANCE: processing_system7_0 -
+   Pre-Production version not verified on hardware for architecture 'zynq' -
+   D:\zybo_home\zybo_home.srcs\sources_1\edk\module_1\module_1.mhs line 28 
+
+Overriding IP level properties ...
+INFO:EDK - IPNAME: processing_system7, INSTANCE:processing_system7_0 - tcl is
+   overriding PARAMETER C_PACKAGE_NAME value to clg400 -
+   C:\Xilinx\14.3\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\processing_system7_v
+   4_02_a\data\processing_system7_v2_1_0.mpd line 185 
+INFO:EDK - IPNAME: processing_system7, INSTANCE:processing_system7_0 - tcl is
+   overriding PARAMETER C_NUM_F2P_INTR_INPUTS value to 1 -
+   C:\Xilinx\14.3\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\processing_system7_v
+   4_02_a\data\processing_system7_v2_1_0.mpd line 319 
+
+Computing clock values...
+INFO:EDK - Frequency for Top-Level Input Clock 'processing_system7_0_PS_CLK_pin'
+   is not specified. Clock DRCs will not be performed for IPs connected to that
+   clock port, unless they are connected through the clock generator IP. 
+
+
+Performing IP level DRCs on properties...
+
+Running DRC Tcl procedures for OPTION IPLEVEL_DRC_PROC...
+INFO:EDK - INFO: DDR Base and High address in current configuration is
+   0x00000000 and 0x3FFFFFFF respectively. 
+INFO:EDK - INFO: You can modify the DDR address range accessed by Programmable
+   Logic through the processing_system7 AXI slave interfaces. If MicroBlaze is a
+   master on processing_system7 AXI slave interfaces, please use the top half of
+   the address range (Base Address = 0x20000000; High Address = 0x3FFFFFFF). For
+   all other master, any subset of the DDR address can be used. See Xilinx
+   Answer 47167 for more information. 
+Address Map for Processor processing_system7_0
+
+Checking platform address map ...
+
+Overriding IP level properties ...
+INFO:EDK - IPNAME: processing_system7, INSTANCE:processing_system7_0 - tcl is
+   overriding PARAMETER C_PACKAGE_NAME value to clg400 -
+   C:\Xilinx\14.3\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\processing_system7_v
+   4_02_a\data\processing_system7_v2_1_0.mpd line 185 
+INFO:EDK - IPNAME: processing_system7, INSTANCE:processing_system7_0 - tcl is
+   overriding PARAMETER C_S_AXI_HP0_HIGHADDR value to 0x1FFFFFFF -
+   C:\Xilinx\14.3\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\processing_system7_v
+   4_02_a\data\processing_system7_v2_1_0.mpd line 300 
+INFO:EDK - IPNAME: processing_system7, INSTANCE:processing_system7_0 - tcl is
+   overriding PARAMETER C_S_AXI_HP1_HIGHADDR value to 0x1FFFFFFF -
+   C:\Xilinx\14.3\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\processing_system7_v
+   4_02_a\data\processing_system7_v2_1_0.mpd line 304 
+INFO:EDK - IPNAME: processing_system7, INSTANCE:processing_system7_0 - tcl is
+   overriding PARAMETER C_S_AXI_HP2_HIGHADDR value to 0x1FFFFFFF -
+   C:\Xilinx\14.3\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\processing_system7_v
+   4_02_a\data\processing_system7_v2_1_0.mpd line 308 
+INFO:EDK - IPNAME: processing_system7, INSTANCE:processing_system7_0 - tcl is
+   overriding PARAMETER C_S_AXI_HP3_HIGHADDR value to 0x1FFFFFFF -
+   C:\Xilinx\14.3\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\processing_system7_v
+   4_02_a\data\processing_system7_v2_1_0.mpd line 312 
+INFO:EDK - IPNAME: processing_system7, INSTANCE:processing_system7_0 - tcl is
+   overriding PARAMETER C_NUM_F2P_INTR_INPUTS value to 1 -
+   C:\Xilinx\14.3\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\processing_system7_v
+   4_02_a\data\processing_system7_v2_1_0.mpd line 319 
+
+Computing clock values...
+INFO:EDK - Frequency for Top-Level Input Clock 'processing_system7_0_PS_CLK_pin'
+   is not specified. Clock DRCs will not be performed for IPs connected to that
+   clock port, unless they are connected through the clock generator IP. 
+
+
+Performing IP level DRCs on properties...
+
+Running DRC Tcl procedures for OPTION IPLEVEL_DRC_PROC...
+INFO:EDK - INFO: DDR Base and High address in current configuration is
+   0x00000000 and 0x1FFFFFFF respectively. 
+INFO:EDK - INFO: You can modify the DDR address range accessed by Programmable
+   Logic through the processing_system7 AXI slave interfaces. If MicroBlaze is a
+   master on processing_system7 AXI slave interfaces, please use the top half of
+   the address range (Base Address = 0x10000000; High Address = 0x1FFFFFFF). For
+   all other master, any subset of the DDR address can be used. See Xilinx
+   Answer 47167 for more information. 
+Address Map for Processor processing_system7_0
+
+Checking platform address map ...
+
+Overriding IP level properties ...
+INFO:EDK - IPNAME: processing_system7, INSTANCE:processing_system7_0 - tcl is
+   overriding PARAMETER C_PACKAGE_NAME value to clg400 -
+   C:\Xilinx\14.3\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\processing_system7_v
+   4_02_a\data\processing_system7_v2_1_0.mpd line 185 
+INFO:EDK - IPNAME: processing_system7, INSTANCE:processing_system7_0 - tcl is
+   overriding PARAMETER C_S_AXI_HP0_HIGHADDR value to 0x1FFFFFFF -
+   C:\Xilinx\14.3\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\processing_system7_v
+   4_02_a\data\processing_system7_v2_1_0.mpd line 300 
+INFO:EDK - IPNAME: processing_system7, INSTANCE:processing_system7_0 - tcl is
+   overriding PARAMETER C_S_AXI_HP1_HIGHADDR value to 0x1FFFFFFF -
+   C:\Xilinx\14.3\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\processing_system7_v
+   4_02_a\data\processing_system7_v2_1_0.mpd line 304 
+INFO:EDK - IPNAME: processing_system7, INSTANCE:processing_system7_0 - tcl is
+   overriding PARAMETER C_S_AXI_HP2_HIGHADDR value to 0x1FFFFFFF -
+   C:\Xilinx\14.3\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\processing_system7_v
+   4_02_a\data\processing_system7_v2_1_0.mpd line 308 
+INFO:EDK - IPNAME: processing_system7, INSTANCE:processing_system7_0 - tcl is
+   overriding PARAMETER C_S_AXI_HP3_HIGHADDR value to 0x1FFFFFFF -
+   C:\Xilinx\14.3\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\processing_system7_v
+   4_02_a\data\processing_system7_v2_1_0.mpd line 312 
+INFO:EDK - IPNAME: processing_system7, INSTANCE:processing_system7_0 - tcl is
+   overriding PARAMETER C_NUM_F2P_INTR_INPUTS value to 1 -
+   C:\Xilinx\14.3\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\processing_system7_v
+   4_02_a\data\processing_system7_v2_1_0.mpd line 319 
+
+Computing clock values...
+INFO:EDK - Frequency for Top-Level Input Clock 'processing_system7_0_PS_CLK_pin'
+   is not specified. Clock DRCs will not be performed for IPs connected to that
+   clock port, unless they are connected through the clock generator IP. 
+
+
+Performing IP level DRCs on properties...
+
+Running DRC Tcl procedures for OPTION IPLEVEL_DRC_PROC...
+INFO:EDK - INFO: DDR Base and High address in current configuration is
+   0x00000000 and 0x1FFFFFFF respectively. 
+INFO:EDK - INFO: You can modify the DDR address range accessed by Programmable
+   Logic through the processing_system7 AXI slave interfaces. If MicroBlaze is a
+   master on processing_system7 AXI slave interfaces, please use the top half of
+   the address range (Base Address = 0x10000000; High Address = 0x1FFFFFFF). For
+   all other master, any subset of the DDR address can be used. See Xilinx
+   Answer 47167 for more information. 
+Address Map for Processor processing_system7_0
+
+Checking platform address map ...
+=====================
+Opened log file
+=====================
+=====================
+Opened log file
+=====================
+Xilinx Platform Studio (XPS)
+Xilinx EDK 14.3 Build EDK_P.40xd
+
+Xilinx EDK 14.3 Build EDK_P.40xd
+
+WARNING:EDK - IPNAME: processing_system7, INSTANCE: processing_system7_0 -
+   Pre-Production version not verified on hardware for architecture 'zynq' -
+   D:\zybo_home\zybo_home.srcs\sources_1\edk\module_1\module_1.mhs line 28 
+WARNING:EDK - IPNAME: processing_system7, INSTANCE: processing_system7_0 -
+   Pre-Production version not verified on hardware for architecture 'zynq' -
+   D:\zybo_home\zybo_home.srcs\sources_1\edk\module_1\module_1.mhs line 28 
+
+Overriding IP level properties ...
+INFO:EDK - IPNAME: processing_system7, INSTANCE:processing_system7_0 - tcl is
+   overriding PARAMETER C_PACKAGE_NAME value to clg400 -
+   C:\Xilinx\14.3\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\processing_system7_v
+   4_02_a\data\processing_system7_v2_1_0.mpd line 185 
+INFO:EDK - IPNAME: processing_system7, INSTANCE:processing_system7_0 - tcl is
+   overriding PARAMETER C_NUM_F2P_INTR_INPUTS value to 1 -
+   C:\Xilinx\14.3\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\processing_system7_v
+   4_02_a\data\processing_system7_v2_1_0.mpd line 319 
+
+Computing clock values...
+INFO:EDK - Frequency for Top-Level Input Clock 'processing_system7_0_PS_CLK_pin'
+   is not specified. Clock DRCs will not be performed for IPs connected to that
+   clock port, unless they are connected through the clock generator IP. 
+
+
+Performing IP level DRCs on properties...
+
+Running DRC Tcl procedures for OPTION IPLEVEL_DRC_PROC...
+INFO:EDK - INFO: DDR Base and High address in current configuration is
+   0x00000000 and 0x3FFFFFFF respectively. 
+INFO:EDK - INFO: You can modify the DDR address range accessed by Programmable
+   Logic through the processing_system7 AXI slave interfaces. If MicroBlaze is a
+   master on processing_system7 AXI slave interfaces, please use the top half of
+   the address range (Base Address = 0x20000000; High Address = 0x3FFFFFFF). For
+   all other master, any subset of the DDR address can be used. See Xilinx
+   Answer 47167 for more information. 
+Address Map for Processor processing_system7_0
+
+Checking platform address map ...
+
+Overriding IP level properties ...
+INFO:EDK - IPNAME: processing_system7, INSTANCE:processing_system7_0 - tcl is
+   overriding PARAMETER C_PACKAGE_NAME value to clg400 -
+   C:\Xilinx\14.3\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\processing_system7_v
+   4_02_a\data\processing_system7_v2_1_0.mpd line 185 
+INFO:EDK - IPNAME: processing_system7, INSTANCE:processing_system7_0 - tcl is
+   overriding PARAMETER C_S_AXI_HP0_HIGHADDR value to 0x1FFFFFFF -
+   C:\Xilinx\14.3\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\processing_system7_v
+   4_02_a\data\processing_system7_v2_1_0.mpd line 300 
+INFO:EDK - IPNAME: processing_system7, INSTANCE:processing_system7_0 - tcl is
+   overriding PARAMETER C_S_AXI_HP1_HIGHADDR value to 0x1FFFFFFF -
+   C:\Xilinx\14.3\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\processing_system7_v
+   4_02_a\data\processing_system7_v2_1_0.mpd line 304 
+INFO:EDK - IPNAME: processing_system7, INSTANCE:processing_system7_0 - tcl is
+   overriding PARAMETER C_S_AXI_HP2_HIGHADDR value to 0x1FFFFFFF -
+   C:\Xilinx\14.3\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\processing_system7_v
+   4_02_a\data\processing_system7_v2_1_0.mpd line 308 
+INFO:EDK - IPNAME: processing_system7, INSTANCE:processing_system7_0 - tcl is
+   overriding PARAMETER C_S_AXI_HP3_HIGHADDR value to 0x1FFFFFFF -
+   C:\Xilinx\14.3\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\processing_system7_v
+   4_02_a\data\processing_system7_v2_1_0.mpd line 312 
+INFO:EDK - IPNAME: processing_system7, INSTANCE:processing_system7_0 - tcl is
+   overriding PARAMETER C_NUM_F2P_INTR_INPUTS value to 1 -
+   C:\Xilinx\14.3\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\processing_system7_v
+   4_02_a\data\processing_system7_v2_1_0.mpd line 319 
+
+Computing clock values...
+INFO:EDK - Frequency for Top-Level Input Clock 'processing_system7_0_PS_CLK_pin'
+   is not specified. Clock DRCs will not be performed for IPs connected to that
+   clock port, unless they are connected through the clock generator IP. 
+
+
+Performing IP level DRCs on properties...
+
+Running DRC Tcl procedures for OPTION IPLEVEL_DRC_PROC...
+INFO:EDK - INFO: DDR Base and High address in current configuration is
+   0x00000000 and 0x1FFFFFFF respectively. 
+INFO:EDK - INFO: You can modify the DDR address range accessed by Programmable
+   Logic through the processing_system7 AXI slave interfaces. If MicroBlaze is a
+   master on processing_system7 AXI slave interfaces, please use the top half of
+   the address range (Base Address = 0x10000000; High Address = 0x1FFFFFFF). For
+   all other master, any subset of the DDR address can be used. See Xilinx
+   Answer 47167 for more information. 
+Address Map for Processor processing_system7_0
+
+Checking platform address map ...
+ERROR:EDK -  
+   Error while running "make -f module_1.make netlist".
+=====================
+Opened log file
+=====================
+=====================
+Opened log file
+=====================
+Xilinx Platform Studio (XPS)
+Xilinx EDK 14.3 Build EDK_P.40xd
+
+Xilinx EDK 14.3 Build EDK_P.40xd
+
+WARNING:EDK - IPNAME: processing_system7, INSTANCE: processing_system7_0 -
+   Pre-Production version not verified on hardware for architecture 'zynq' -
+   D:\zybo_home\zybo_home.srcs\sources_1\edk\module_1\module_1.mhs line 28 
+WARNING:EDK - IPNAME: processing_system7, INSTANCE: processing_system7_0 -
+   Pre-Production version not verified on hardware for architecture 'zynq' -
+   D:\zybo_home\zybo_home.srcs\sources_1\edk\module_1\module_1.mhs line 28 
+
+Overriding IP level properties ...
+INFO:EDK - IPNAME: processing_system7, INSTANCE:processing_system7_0 - tcl is
+   overriding PARAMETER C_PACKAGE_NAME value to clg400 -
+   C:\Xilinx\14.3\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\processing_system7_v
+   4_02_a\data\processing_system7_v2_1_0.mpd line 185 
+INFO:EDK - IPNAME: processing_system7, INSTANCE:processing_system7_0 - tcl is
+   overriding PARAMETER C_NUM_F2P_INTR_INPUTS value to 1 -
+   C:\Xilinx\14.3\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\processing_system7_v
+   4_02_a\data\processing_system7_v2_1_0.mpd line 319 
+
+Computing clock values...
+INFO:EDK - Frequency for Top-Level Input Clock 'processing_system7_0_PS_CLK_pin'
+   is not specified. Clock DRCs will not be performed for IPs connected to that
+   clock port, unless they are connected through the clock generator IP. 
+
+
+Performing IP level DRCs on properties...
+
+Running DRC Tcl procedures for OPTION IPLEVEL_DRC_PROC...
+INFO:EDK - INFO: DDR Base and High address in current configuration is
+   0x00000000 and 0x3FFFFFFF respectively. 
+INFO:EDK - INFO: You can modify the DDR address range accessed by Programmable
+   Logic through the processing_system7 AXI slave interfaces. If MicroBlaze is a
+   master on processing_system7 AXI slave interfaces, please use the top half of
+   the address range (Base Address = 0x20000000; High Address = 0x3FFFFFFF). For
+   all other master, any subset of the DDR address can be used. See Xilinx
+   Answer 47167 for more information. 
+Address Map for Processor processing_system7_0
+
+Checking platform address map ...
+
+Overriding IP level properties ...
+INFO:EDK - IPNAME: processing_system7, INSTANCE:processing_system7_0 - tcl is
+   overriding PARAMETER C_PACKAGE_NAME value to clg400 -
+   C:\Xilinx\14.3\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\processing_system7_v
+   4_02_a\data\processing_system7_v2_1_0.mpd line 185 
+INFO:EDK - IPNAME: processing_system7, INSTANCE:processing_system7_0 - tcl is
+   overriding PARAMETER C_S_AXI_HP0_HIGHADDR value to 0x1FFFFFFF -
+   C:\Xilinx\14.3\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\processing_system7_v
+   4_02_a\data\processing_system7_v2_1_0.mpd line 300 
+INFO:EDK - IPNAME: processing_system7, INSTANCE:processing_system7_0 - tcl is
+   overriding PARAMETER C_S_AXI_HP1_HIGHADDR value to 0x1FFFFFFF -
+   C:\Xilinx\14.3\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\processing_system7_v
+   4_02_a\data\processing_system7_v2_1_0.mpd line 304 
+INFO:EDK - IPNAME: processing_system7, INSTANCE:processing_system7_0 - tcl is
+   overriding PARAMETER C_S_AXI_HP2_HIGHADDR value to 0x1FFFFFFF -
+   C:\Xilinx\14.3\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\processing_system7_v
+   4_02_a\data\processing_system7_v2_1_0.mpd line 308 
+INFO:EDK - IPNAME: processing_system7, INSTANCE:processing_system7_0 - tcl is
+   overriding PARAMETER C_S_AXI_HP3_HIGHADDR value to 0x1FFFFFFF -
+   C:\Xilinx\14.3\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\processing_system7_v
+   4_02_a\data\processing_system7_v2_1_0.mpd line 312 
+INFO:EDK - IPNAME: processing_system7, INSTANCE:processing_system7_0 - tcl is
+   overriding PARAMETER C_NUM_F2P_INTR_INPUTS value to 1 -
+   C:\Xilinx\14.3\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\processing_system7_v
+   4_02_a\data\processing_system7_v2_1_0.mpd line 319 
+
+Computing clock values...
+INFO:EDK - Frequency for Top-Level Input Clock 'processing_system7_0_PS_CLK_pin'
+   is not specified. Clock DRCs will not be performed for IPs connected to that
+   clock port, unless they are connected through the clock generator IP. 
+
+
+Performing IP level DRCs on properties...
+
+Running DRC Tcl procedures for OPTION IPLEVEL_DRC_PROC...
+INFO:EDK - INFO: DDR Base and High address in current configuration is
+   0x00000000 and 0x1FFFFFFF respectively. 
+INFO:EDK - INFO: You can modify the DDR address range accessed by Programmable
+   Logic through the processing_system7 AXI slave interfaces. If MicroBlaze is a
+   master on processing_system7 AXI slave interfaces, please use the top half of
+   the address range (Base Address = 0x10000000; High Address = 0x1FFFFFFF). For
+   all other master, any subset of the DDR address can be used. See Xilinx
+   Answer 47167 for more information. 
+Address Map for Processor processing_system7_0
+
+Checking platform address map ...
+ERROR:EDK -  
+   Error while running "make -f module_1.make netlist".
+Xilinx Platform Studio (XPS)
+Xilinx EDK 14.3 Build EDK_P.40xd
+Copyright (c) 1995-2012 Xilinx, Inc.  All rights reserved.
+
+Overriding Xilinx file <TextEditor.cfg> with local file <C:/Xilinx/14.3/ISE_DS/EDK/data/TextEditor.cfg>
+Writing filter settings....
+Done writing filter settings to:
+	D:\zybo_home\zybo_home.srcs\sources_1\edk\module_1\etc\module_1.filters
+Done writing Tab View settings to:
+	D:\zybo_home\zybo_home.srcs\sources_1\edk\module_1\etc\module_1.gui
+=====================
+Opened log file
+=====================
+=====================
+Opened log file
+=====================
+Xilinx Platform Studio (XPS)
+Xilinx EDK 14.3 Build EDK_P.40xd
+
+Xilinx EDK 14.3 Build EDK_P.40xd
+
+WARNING:EDK - IPNAME: processing_system7, INSTANCE: processing_system7_0 -
+   Pre-Production version not verified on hardware for architecture 'zynq' -
+   D:\zybo_home\zybo_home.srcs\sources_1\edk\module_1\module_1.mhs line 28 
+WARNING:EDK - IPNAME: processing_system7, INSTANCE: processing_system7_0 -
+   Pre-Production version not verified on hardware for architecture 'zynq' -
+   D:\zybo_home\zybo_home.srcs\sources_1\edk\module_1\module_1.mhs line 28 
+
+Overriding IP level properties ...
+INFO:EDK - IPNAME: processing_system7, INSTANCE:processing_system7_0 - tcl is
+   overriding PARAMETER C_PACKAGE_NAME value to clg400 -
+   C:\Xilinx\14.3\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\processing_system7_v
+   4_02_a\data\processing_system7_v2_1_0.mpd line 185 
+INFO:EDK - IPNAME: processing_system7, INSTANCE:processing_system7_0 - tcl is
+   overriding PARAMETER C_S_AXI_HP0_HIGHADDR value to 0x1FFFFFFF -
+   C:\Xilinx\14.3\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\processing_system7_v
+   4_02_a\data\processing_system7_v2_1_0.mpd line 300 
+INFO:EDK - IPNAME: processing_system7, INSTANCE:processing_system7_0 - tcl is
+   overriding PARAMETER C_S_AXI_HP1_HIGHADDR value to 0x1FFFFFFF -
+   C:\Xilinx\14.3\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\processing_system7_v
+   4_02_a\data\processing_system7_v2_1_0.mpd line 304 
+INFO:EDK - IPNAME: processing_system7, INSTANCE:processing_system7_0 - tcl is
+   overriding PARAMETER C_S_AXI_HP2_HIGHADDR value to 0x1FFFFFFF -
+   C:\Xilinx\14.3\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\processing_system7_v
+   4_02_a\data\processing_system7_v2_1_0.mpd line 308 
+INFO:EDK - IPNAME: processing_system7, INSTANCE:processing_system7_0 - tcl is
+   overriding PARAMETER C_S_AXI_HP3_HIGHADDR value to 0x1FFFFFFF -
+   C:\Xilinx\14.3\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\processing_system7_v
+   4_02_a\data\processing_system7_v2_1_0.mpd line 312 
+INFO:EDK - IPNAME: processing_system7, INSTANCE:processing_system7_0 - tcl is
+   overriding PARAMETER C_NUM_F2P_INTR_INPUTS value to 1 -
+   C:\Xilinx\14.3\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\processing_system7_v
+   4_02_a\data\processing_system7_v2_1_0.mpd line 319 
+
+Computing clock values...
+INFO:EDK - Frequency for Top-Level Input Clock 'processing_system7_0_PS_CLK_pin'
+   is not specified. Clock DRCs will not be performed for IPs connected to that
+   clock port, unless they are connected through the clock generator IP. 
+
+
+Performing IP level DRCs on properties...
+
+Running DRC Tcl procedures for OPTION IPLEVEL_DRC_PROC...
+INFO:EDK - INFO: DDR Base and High address in current configuration is
+   0x00000000 and 0x1FFFFFFF respectively. 
+INFO:EDK - INFO: You can modify the DDR address range accessed by Programmable
+   Logic through the processing_system7 AXI slave interfaces. If MicroBlaze is a
+   master on processing_system7 AXI slave interfaces, please use the top half of
+   the address range (Base Address = 0x10000000; High Address = 0x1FFFFFFF). For
+   all other master, any subset of the DDR address can be used. See Xilinx
+   Answer 47167 for more information. 
+Address Map for Processor processing_system7_0
+
+Checking platform address map ...
+
+Overriding IP level properties ...
+INFO:EDK - IPNAME: processing_system7, INSTANCE:processing_system7_0 - tcl is
+   overriding PARAMETER C_PACKAGE_NAME value to clg400 -
+   C:\Xilinx\14.3\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\processing_system7_v
+   4_02_a\data\processing_system7_v2_1_0.mpd line 185 
+INFO:EDK - IPNAME: processing_system7, INSTANCE:processing_system7_0 - tcl is
+   overriding PARAMETER C_S_AXI_HP0_HIGHADDR value to 0x1FFFFFFF -
+   C:\Xilinx\14.3\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\processing_system7_v
+   4_02_a\data\processing_system7_v2_1_0.mpd line 300 
+INFO:EDK - IPNAME: processing_system7, INSTANCE:processing_system7_0 - tcl is
+   overriding PARAMETER C_S_AXI_HP1_HIGHADDR value to 0x1FFFFFFF -
+   C:\Xilinx\14.3\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\processing_system7_v
+   4_02_a\data\processing_system7_v2_1_0.mpd line 304 
+INFO:EDK - IPNAME: processing_system7, INSTANCE:processing_system7_0 - tcl is
+   overriding PARAMETER C_S_AXI_HP2_HIGHADDR value to 0x1FFFFFFF -
+   C:\Xilinx\14.3\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\processing_system7_v
+   4_02_a\data\processing_system7_v2_1_0.mpd line 308 
+INFO:EDK - IPNAME: processing_system7, INSTANCE:processing_system7_0 - tcl is
+   overriding PARAMETER C_S_AXI_HP3_HIGHADDR value to 0x1FFFFFFF -
+   C:\Xilinx\14.3\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\processing_system7_v
+   4_02_a\data\processing_system7_v2_1_0.mpd line 312 
+INFO:EDK - IPNAME: processing_system7, INSTANCE:processing_system7_0 - tcl is
+   overriding PARAMETER C_NUM_F2P_INTR_INPUTS value to 1 -
+   C:\Xilinx\14.3\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\processing_system7_v
+   4_02_a\data\processing_system7_v2_1_0.mpd line 319 
+
+Computing clock values...
+INFO:EDK - Frequency for Top-Level Input Clock 'processing_system7_0_PS_CLK_pin'
+   is not specified. Clock DRCs will not be performed for IPs connected to that
+   clock port, unless they are connected through the clock generator IP. 
+
+
+Performing IP level DRCs on properties...
+
+Running DRC Tcl procedures for OPTION IPLEVEL_DRC_PROC...
+INFO:EDK - INFO: DDR Base and High address in current configuration is
+   0x00000000 and 0x1FFFFFFF respectively. 
+INFO:EDK - INFO: You can modify the DDR address range accessed by Programmable
+   Logic through the processing_system7 AXI slave interfaces. If MicroBlaze is a
+   master on processing_system7 AXI slave interfaces, please use the top half of
+   the address range (Base Address = 0x10000000; High Address = 0x1FFFFFFF). For
+   all other master, any subset of the DDR address can be used. See Xilinx
+   Answer 47167 for more information. 
+Address Map for Processor processing_system7_0
+
+Checking platform address map ...
+
+Overriding IP level properties ...
+INFO:EDK - IPNAME: processing_system7, INSTANCE:processing_system7_0 - tcl is
+   overriding PARAMETER C_PACKAGE_NAME value to clg400 -
+   C:\Xilinx\14.3\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\processing_system7_v
+   4_02_a\data\processing_system7_v2_1_0.mpd line 185 
+INFO:EDK - IPNAME: processing_system7, INSTANCE:processing_system7_0 - tcl is
+   overriding PARAMETER C_S_AXI_HP0_HIGHADDR value to 0x1FFFFFFF -
+   C:\Xilinx\14.3\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\processing_system7_v
+   4_02_a\data\processing_system7_v2_1_0.mpd line 300 
+INFO:EDK - IPNAME: processing_system7, INSTANCE:processing_system7_0 - tcl is
+   overriding PARAMETER C_S_AXI_HP1_HIGHADDR value to 0x1FFFFFFF -
+   C:\Xilinx\14.3\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\processing_system7_v
+   4_02_a\data\processing_system7_v2_1_0.mpd line 304 
+INFO:EDK - IPNAME: processing_system7, INSTANCE:processing_system7_0 - tcl is
+   overriding PARAMETER C_S_AXI_HP2_HIGHADDR value to 0x1FFFFFFF -
+   C:\Xilinx\14.3\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\processing_system7_v
+   4_02_a\data\processing_system7_v2_1_0.mpd line 308 
+INFO:EDK - IPNAME: processing_system7, INSTANCE:processing_system7_0 - tcl is
+   overriding PARAMETER C_S_AXI_HP3_HIGHADDR value to 0x1FFFFFFF -
+   C:\Xilinx\14.3\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\processing_system7_v
+   4_02_a\data\processing_system7_v2_1_0.mpd line 312 
+INFO:EDK - IPNAME: processing_system7, INSTANCE:processing_system7_0 - tcl is
+   overriding PARAMETER C_NUM_F2P_INTR_INPUTS value to 1 -
+   C:\Xilinx\14.3\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\processing_system7_v
+   4_02_a\data\processing_system7_v2_1_0.mpd line 319 
+
+Computing clock values...
+INFO:EDK - Frequency for Top-Level Input Clock 'processing_system7_0_PS_CLK_pin'
+   is not specified. Clock DRCs will not be performed for IPs connected to that
+   clock port, unless they are connected through the clock generator IP. 
+
+
+Performing IP level DRCs on properties...
+
+Running DRC Tcl procedures for OPTION IPLEVEL_DRC_PROC...
+INFO:EDK - INFO: DDR Base and High address in current configuration is
+   0x00000000 and 0x1FFFFFFF respectively. 
+INFO:EDK - INFO: You can modify the DDR address range accessed by Programmable
+   Logic through the processing_system7 AXI slave interfaces. If MicroBlaze is a
+   master on processing_system7 AXI slave interfaces, please use the top half of
+   the address range (Base Address = 0x10000000; High Address = 0x1FFFFFFF). For
+   all other master, any subset of the DDR address can be used. See Xilinx
+   Answer 47167 for more information. 
+Address Map for Processor processing_system7_0
+
+Checking platform address map ...
+=====================
+Opened log file
+=====================
+=====================
+Opened log file
+=====================
+Xilinx Platform Studio (XPS)
+Xilinx EDK 14.3 Build EDK_P.40xd
+
+Xilinx EDK 14.3 Build EDK_P.40xd
+
+WARNING:EDK - IPNAME: processing_system7, INSTANCE: processing_system7_0 -
+   Pre-Production version not verified on hardware for architecture 'zynq' -
+   D:\zybo_home\zybo_home.srcs\sources_1\edk\module_1\module_1.mhs line 28 
+WARNING:EDK - IPNAME: processing_system7, INSTANCE: processing_system7_0 -
+   Pre-Production version not verified on hardware for architecture 'zynq' -
+   D:\zybo_home\zybo_home.srcs\sources_1\edk\module_1\module_1.mhs line 28 
+
+Overriding IP level properties ...
+INFO:EDK - IPNAME: processing_system7, INSTANCE:processing_system7_0 - tcl is
+   overriding PARAMETER C_PACKAGE_NAME value to clg400 -
+   C:\Xilinx\14.3\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\processing_system7_v
+   4_02_a\data\processing_system7_v2_1_0.mpd line 185 
+INFO:EDK - IPNAME: processing_system7, INSTANCE:processing_system7_0 - tcl is
+   overriding PARAMETER C_S_AXI_HP0_HIGHADDR value to 0x1FFFFFFF -
+   C:\Xilinx\14.3\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\processing_system7_v
+   4_02_a\data\processing_system7_v2_1_0.mpd line 300 
+INFO:EDK - IPNAME: processing_system7, INSTANCE:processing_system7_0 - tcl is
+   overriding PARAMETER C_S_AXI_HP1_HIGHADDR value to 0x1FFFFFFF -
+   C:\Xilinx\14.3\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\processing_system7_v
+   4_02_a\data\processing_system7_v2_1_0.mpd line 304 
+INFO:EDK - IPNAME: processing_system7, INSTANCE:processing_system7_0 - tcl is
+   overriding PARAMETER C_S_AXI_HP2_HIGHADDR value to 0x1FFFFFFF -
+   C:\Xilinx\14.3\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\processing_system7_v
+   4_02_a\data\processing_system7_v2_1_0.mpd line 308 
+INFO:EDK - IPNAME: processing_system7, INSTANCE:processing_system7_0 - tcl is
+   overriding PARAMETER C_S_AXI_HP3_HIGHADDR value to 0x1FFFFFFF -
+   C:\Xilinx\14.3\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\processing_system7_v
+   4_02_a\data\processing_system7_v2_1_0.mpd line 312 
+INFO:EDK - IPNAME: processing_system7, INSTANCE:processing_system7_0 - tcl is
+   overriding PARAMETER C_NUM_F2P_INTR_INPUTS value to 1 -
+   C:\Xilinx\14.3\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\processing_system7_v
+   4_02_a\data\processing_system7_v2_1_0.mpd line 319 
+
+Computing clock values...
+INFO:EDK - Frequency for Top-Level Input Clock 'processing_system7_0_PS_CLK_pin'
+   is not specified. Clock DRCs will not be performed for IPs connected to that
+   clock port, unless they are connected through the clock generator IP. 
+
+
+Performing IP level DRCs on properties...
+
+Running DRC Tcl procedures for OPTION IPLEVEL_DRC_PROC...
+INFO:EDK - INFO: DDR Base and High address in current configuration is
+   0x00000000 and 0x1FFFFFFF respectively. 
+INFO:EDK - INFO: You can modify the DDR address range accessed by Programmable
+   Logic through the processing_system7 AXI slave interfaces. If MicroBlaze is a
+   master on processing_system7 AXI slave interfaces, please use the top half of
+   the address range (Base Address = 0x10000000; High Address = 0x1FFFFFFF). For
+   all other master, any subset of the DDR address can be used. See Xilinx
+   Answer 47167 for more information. 
+Address Map for Processor processing_system7_0
+
+Checking platform address map ...
+
+Overriding IP level properties ...
+INFO:EDK - IPNAME: processing_system7, INSTANCE:processing_system7_0 - tcl is
+   overriding PARAMETER C_PACKAGE_NAME value to clg400 -
+   C:\Xilinx\14.3\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\processing_system7_v
+   4_02_a\data\processing_system7_v2_1_0.mpd line 185 
+INFO:EDK - IPNAME: processing_system7, INSTANCE:processing_system7_0 - tcl is
+   overriding PARAMETER C_S_AXI_HP0_HIGHADDR value to 0x1FFFFFFF -
+   C:\Xilinx\14.3\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\processing_system7_v
+   4_02_a\data\processing_system7_v2_1_0.mpd line 300 
+INFO:EDK - IPNAME: processing_system7, INSTANCE:processing_system7_0 - tcl is
+   overriding PARAMETER C_S_AXI_HP1_HIGHADDR value to 0x1FFFFFFF -
+   C:\Xilinx\14.3\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\processing_system7_v
+   4_02_a\data\processing_system7_v2_1_0.mpd line 304 
+INFO:EDK - IPNAME: processing_system7, INSTANCE:processing_system7_0 - tcl is
+   overriding PARAMETER C_S_AXI_HP2_HIGHADDR value to 0x1FFFFFFF -
+   C:\Xilinx\14.3\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\processing_system7_v
+   4_02_a\data\processing_system7_v2_1_0.mpd line 308 
+INFO:EDK - IPNAME: processing_system7, INSTANCE:processing_system7_0 - tcl is
+   overriding PARAMETER C_S_AXI_HP3_HIGHADDR value to 0x1FFFFFFF -
+   C:\Xilinx\14.3\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\processing_system7_v
+   4_02_a\data\processing_system7_v2_1_0.mpd line 312 
+INFO:EDK - IPNAME: processing_system7, INSTANCE:processing_system7_0 - tcl is
+   overriding PARAMETER C_NUM_F2P_INTR_INPUTS value to 1 -
+   C:\Xilinx\14.3\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\processing_system7_v
+   4_02_a\data\processing_system7_v2_1_0.mpd line 319 
+
+Computing clock values...
+INFO:EDK - Frequency for Top-Level Input Clock 'processing_system7_0_PS_CLK_pin'
+   is not specified. Clock DRCs will not be performed for IPs connected to that
+   clock port, unless they are connected through the clock generator IP. 
+
+
+Performing IP level DRCs on properties...
+
+Running DRC Tcl procedures for OPTION IPLEVEL_DRC_PROC...
+INFO:EDK - INFO: DDR Base and High address in current configuration is
+   0x00000000 and 0x1FFFFFFF respectively. 
+INFO:EDK - INFO: You can modify the DDR address range accessed by Programmable
+   Logic through the processing_system7 AXI slave interfaces. If MicroBlaze is a
+   master on processing_system7 AXI slave interfaces, please use the top half of
+   the address range (Base Address = 0x10000000; High Address = 0x1FFFFFFF). For
+   all other master, any subset of the DDR address can be used. See Xilinx
+   Answer 47167 for more information. 
+Address Map for Processor processing_system7_0
+
+Checking platform address map ...
+Xilinx Platform Studio (XPS)
+Xilinx EDK 14.3 Build EDK_P.40xd
+Copyright (c) 1995-2012 Xilinx, Inc.  All rights reserved.
+
+
+********************************************************************************
+At Local date and time: Fri May 09 09:46:17 2014
+ make -f module_1.make exporttosdk started...
+IF NOT EXIST "SDK\SDK_Export\hw" @mkdir "SDK\SDK_Export\hw"
+pscgen -mhs module_1.mhs -expdir SDK\SDK_Export\hw
+ZynqConfig: Terminated for pscgen mode
+psf2Edward -inp module_1.xmp -flat_zynq -dont_run_checkhwsys -dont_add_loginfo -make_inst_lower -edwver 1.2 -xml SDK\SDK_Export\hw/module_1.xml 
+Release 14.3 - psf2Edward EDK_P.40xd (nt)
+Copyright (c) 1995-2012 Xilinx, Inc.  All rights reserved.
+WARNING:EDK:4092 - IPNAME: processing_system7, INSTANCE: processing_system7_0 -
+   Pre-Production version not verified on hardware for architecture 'zynq' -
+   D:\zybo_home\zybo_home.srcs\sources_1\edk\module_1\module_1.mhs line 28 
+WARNING:EDK:4092 - IPNAME: processing_system7, INSTANCE: processing_system7_0 -
+   Pre-Production version not verified on hardware for architecture 'zynq' -
+   D:\zybo_home\zybo_home.srcs\sources_1\edk\module_1\module_1.mhs line 28 
+WARNING:EDK:4092 - IPNAME: processing_system7, INSTANCE: processing_system7_0 -
+   Pre-Production version not verified on hardware for architecture 'zynq' -
+   D:\zybo_home\zybo_home.srcs\sources_1\edk\module_1\module_1.mhs line 28 
+WARNING:EDK:4092 - IPNAME: processing_system7, INSTANCE: processing_system7_0 -
+   Pre-Production version not verified on hardware for architecture 'zynq' -
+   D:\zybo_home\zybo_home.srcs\sources_1\edk\module_1\module_1.mhs line 28 
+WARNING:EDK -
+   C:\Xilinx\14.3\ISE_DS\ISE\data\zynqconfig\ps7_internals\pcores\ps7_i2c_v1_00_
+   a\data\ps7_i2c_v2_1_0.mpd line 108	Unknown PORT subproperty IIC Serial Data
+WARNING:EDK -
+   C:\Xilinx\14.3\ISE_DS\ISE\data\zynqconfig\ps7_internals\pcores\ps7_i2c_v1_00_
+   a\data\ps7_i2c_v2_1_0.mpd line 109	Unknown PORT subproperty IIC Serial Clock
+WARNING:EDK:2486 - The bitwidth 52 of new value 0xc00000000fe81 is greater than
+   32
+WARNING:EDK:4131 - IPNAME: ps7_usb_0, PROPERTY: C_INTERCONNECT_M_AXI_BASE_ID -
+   Failure in evaluting ISVALID expresion "(C_INCLUDE_DMA == 1)" -
+   C:\Xilinx\14.3\ISE_DS\EDK\data\coremodel\axi\data\tools_axi_v1_01_a.txt line
+   19 
+WARNING:EDK:4131 - IPNAME: ps7_usb_0, PROPERTY:
+   C_INTERCONNECT_M_AXI_IS_ACLK_ASYNC - Failure in evaluting ISVALID expresion
+   "(C_INCLUDE_DMA == 1)" -
+   C:\Xilinx\14.3\ISE_DS\EDK\data\coremodel\axi\data\tools_axi_v1_01_a.txt line
+   20 
+WARNING:EDK:4131 - IPNAME: ps7_usb_0, PROPERTY: C_INTERCONNECT_M_AXI_ACLK_RATIO
+   - Failure in evaluting ISVALID expresion "(C_INCLUDE_DMA == 1)" -
+   C:\Xilinx\14.3\ISE_DS\EDK\data\coremodel\axi\data\tools_axi_v1_01_a.txt line
+   21 
+WARNING:EDK:4131 - IPNAME: ps7_usb_0, PROPERTY:
+   C_INTERCONNECT_M_AXI_ARB_PRIORITY - Failure in evaluting ISVALID expresion
+   "(C_INCLUDE_DMA == 1)" -
+   C:\Xilinx\14.3\ISE_DS\EDK\data\coremodel\axi\data\tools_axi_v1_01_a.txt line
+   22 
+WARNING:EDK:4131 - IPNAME: ps7_usb_0, PROPERTY: C_INTERCONNECT_M_AXI_AW_REGISTER
+   - Failure in evaluting ISVALID expresion "(C_INCLUDE_DMA == 1)" -
+   C:\Xilinx\14.3\ISE_DS\EDK\data\coremodel\axi\data\tools_axi_v1_01_a.txt line
+   23 
+WARNING:EDK:4131 - IPNAME: ps7_usb_0, PROPERTY: C_INTERCONNECT_M_AXI_AR_REGISTER
+   - Failure in evaluting ISVALID expresion "(C_INCLUDE_DMA == 1)" -
+   C:\Xilinx\14.3\ISE_DS\EDK\data\coremodel\axi\data\tools_axi_v1_01_a.txt line
+   24 
+WARNING:EDK:4131 - IPNAME: ps7_usb_0, PROPERTY: C_INTERCONNECT_M_AXI_W_REGISTER
+   - Failure in evaluting ISVALID expresion "(C_INCLUDE_DMA == 1)" -
+   C:\Xilinx\14.3\ISE_DS\EDK\data\coremodel\axi\data\tools_axi_v1_01_a.txt line
+   25 
+WARNING:EDK:4131 - IPNAME: ps7_usb_0, PROPERTY: C_INTERCONNECT_M_AXI_R_REGISTER
+   - Failure in evaluting ISVALID expresion "(C_INCLUDE_DMA == 1)" -
+   C:\Xilinx\14.3\ISE_DS\EDK\data\coremodel\axi\data\tools_axi_v1_01_a.txt line
+   26 
+WARNING:EDK:4131 - IPNAME: ps7_usb_0, PROPERTY: C_INTERCONNECT_M_AXI_B_REGISTER
+   - Failure in evaluting ISVALID expresion "(C_INCLUDE_DMA == 1)" -
+   C:\Xilinx\14.3\ISE_DS\EDK\data\coremodel\axi\data\tools_axi_v1_01_a.txt line
+   27 
+WARNING:EDK:4131 - IPNAME: ps7_usb_0, PROPERTY:
+   C_INTERCONNECT_M_AXI_WRITE_FIFO_DEPTH - Failure in evaluting ISVALID
+   expresion "(C_INCLUDE_DMA == 1)" -
+   C:\Xilinx\14.3\ISE_DS\EDK\data\coremodel\axi\data\tools_axi_v1_01_a.txt line
+   28 
+WARNING:EDK:4131 - IPNAME: ps7_usb_0, PROPERTY:
+   C_INTERCONNECT_M_AXI_READ_FIFO_DEPTH - Failure in evaluting ISVALID expresion
+   "(C_INCLUDE_DMA == 1)" -
+   C:\Xilinx\14.3\ISE_DS\EDK\data\coremodel\axi\data\tools_axi_v1_01_a.txt line
+   29 
+WARNING:EDK:4131 - IPNAME: ps7_usb_0, PROPERTY:
+   C_INTERCONNECT_M_AXI_WRITE_ISSUING - Failure in evaluting ISVALID expresion
+   "(C_INCLUDE_DMA == 1)" -
+   C:\Xilinx\14.3\ISE_DS\EDK\data\coremodel\axi\data\tools_axi_v1_01_a.txt line
+   30 
+WARNING:EDK:4131 - IPNAME: ps7_usb_0, PROPERTY:
+   C_INTERCONNECT_M_AXI_READ_ISSUING - Failure in evaluting ISVALID expresion
+   "(C_INCLUDE_DMA == 1)" -
+   C:\Xilinx\14.3\ISE_DS\EDK\data\coremodel\axi\data\tools_axi_v1_01_a.txt line
+   31 
+WARNING:EDK:4131 - IPNAME: ps7_usb_0, PROPERTY: M_AXI_ACLK - Failure in
+   evaluting ISVALID expresion "(C_INCLUDE_DMA == 1)" -
+   C:\Xilinx\14.3\ISE_DS\ISE\data\zynqconfig\ps7_internals\pcores\ps7_usb_v1_00_
+   a\data\ps7_usb_v2_1_0.mpd line 119 
+WARNING:EDK:4131 - IPNAME: ps7_usb_0, PROPERTY: M_AXI_ARESETN - Failure in
+   evaluting ISVALID expresion "(C_INCLUDE_DMA == 1)" -
+   C:\Xilinx\14.3\ISE_DS\ISE\data\zynqconfig\ps7_internals\pcores\ps7_usb_v1_00_
+   a\data\ps7_usb_v2_1_0.mpd line 120 
+WARNING:EDK:4131 - IPNAME: ps7_usb_0, PROPERTY: M_AXI_AWID - Failure in
+   evaluting ISVALID expresion "(C_INCLUDE_DMA == 1)" -
+   C:\Xilinx\14.3\ISE_DS\ISE\data\zynqconfig\ps7_internals\pcores\ps7_usb_v1_00_
+   a\data\ps7_usb_v2_1_0.mpd line 121 
+WARNING:EDK:4131 - IPNAME: ps7_usb_0, PROPERTY: M_AXI_AWADDR - Failure in
+   evaluting ISVALID expresion "(C_INCLUDE_DMA == 1)" -
+   C:\Xilinx\14.3\ISE_DS\ISE\data\zynqconfig\ps7_internals\pcores\ps7_usb_v1_00_
+   a\data\ps7_usb_v2_1_0.mpd line 122 
+WARNING:EDK:4131 - IPNAME: ps7_usb_0, PROPERTY: M_AXI_AWLEN - Failure in
+   evaluting ISVALID expresion "(C_INCLUDE_DMA == 1)" -
+   C:\Xilinx\14.3\ISE_DS\ISE\data\zynqconfig\ps7_internals\pcores\ps7_usb_v1_00_
+   a\data\ps7_usb_v2_1_0.mpd line 123 
+WARNING:EDK:4131 - IPNAME: ps7_usb_0, PROPERTY: M_AXI_AWSIZE - Failure in
+   evaluting ISVALID expresion "(C_INCLUDE_DMA == 1)" -
+   C:\Xilinx\14.3\ISE_DS\ISE\data\zynqconfig\ps7_internals\pcores\ps7_usb_v1_00_
+   a\data\ps7_usb_v2_1_0.mpd line 124 
+WARNING:EDK:4131 - IPNAME: ps7_usb_0, PROPERTY: M_AXI_AWBURST - Failure in
+   evaluting ISVALID expresion "(C_INCLUDE_DMA == 1)" -
+   C:\Xilinx\14.3\ISE_DS\ISE\data\zynqconfig\ps7_internals\pcores\ps7_usb_v1_00_
+   a\data\ps7_usb_v2_1_0.mpd line 125 
+WARNING:EDK:4131 - IPNAME: ps7_usb_0, PROPERTY: M_AXI_AWCACHE - Failure in
+   evaluting ISVALID expresion "(C_INCLUDE_DMA == 1)" -
+   C:\Xilinx\14.3\ISE_DS\ISE\data\zynqconfig\ps7_internals\pcores\ps7_usb_v1_00_
+   a\data\ps7_usb_v2_1_0.mpd line 126 
+WARNING:EDK:4131 - IPNAME: ps7_usb_0, PROPERTY: M_AXI_AWPROT - Failure in
+   evaluting ISVALID expresion "(C_INCLUDE_DMA == 1)" -
+   C:\Xilinx\14.3\ISE_DS\ISE\data\zynqconfig\ps7_internals\pcores\ps7_usb_v1_00_
+   a\data\ps7_usb_v2_1_0.mpd line 127 
+WARNING:EDK:4131 - IPNAME: ps7_usb_0, PROPERTY: M_AXI_AWLOCK - Failure in
+   evaluting ISVALID expresion "(C_INCLUDE_DMA == 1)" -
+   C:\Xilinx\14.3\ISE_DS\ISE\data\zynqconfig\ps7_internals\pcores\ps7_usb_v1_00_
+   a\data\ps7_usb_v2_1_0.mpd line 128 
+WARNING:EDK:4131 - IPNAME: ps7_usb_0, PROPERTY: M_AXI_AWVALID - Failure in
+   evaluting ISVALID expresion "(C_INCLUDE_DMA == 1)" -
+   C:\Xilinx\14.3\ISE_DS\ISE\data\zynqconfig\ps7_internals\pcores\ps7_usb_v1_00_
+   a\data\ps7_usb_v2_1_0.mpd line 129 
+WARNING:EDK:4131 - IPNAME: ps7_usb_0, PROPERTY: M_AXI_AWREADY - Failure in
+   evaluting ISVALID expresion "(C_INCLUDE_DMA == 1)" -
+   C:\Xilinx\14.3\ISE_DS\ISE\data\zynqconfig\ps7_internals\pcores\ps7_usb_v1_00_
+   a\data\ps7_usb_v2_1_0.mpd line 130 
+WARNING:EDK:4131 - IPNAME: ps7_usb_0, PROPERTY: M_AXI_WDATA - Failure in
+   evaluting ISVALID expresion "(C_INCLUDE_DMA == 1)" -
+   C:\Xilinx\14.3\ISE_DS\ISE\data\zynqconfig\ps7_internals\pcores\ps7_usb_v1_00_
+   a\data\ps7_usb_v2_1_0.mpd line 131 
+WARNING:EDK:4131 - IPNAME: ps7_usb_0, PROPERTY: M_AXI_WSTRB - Failure in
+   evaluting ISVALID expresion "(C_INCLUDE_DMA == 1)" -
+   C:\Xilinx\14.3\ISE_DS\ISE\data\zynqconfig\ps7_internals\pcores\ps7_usb_v1_00_
+   a\data\ps7_usb_v2_1_0.mpd line 132 
+WARNING:EDK:4131 - IPNAME: ps7_usb_0, PROPERTY: M_AXI_WLAST - Failure in
+   evaluting ISVALID expresion "(C_INCLUDE_DMA == 1)" -
+   C:\Xilinx\14.3\ISE_DS\ISE\data\zynqconfig\ps7_internals\pcores\ps7_usb_v1_00_
+   a\data\ps7_usb_v2_1_0.mpd line 133 
+WARNING:EDK:4131 - IPNAME: ps7_usb_0, PROPERTY: M_AXI_WVALID - Failure in
+   evaluting ISVALID expresion "(C_INCLUDE_DMA == 1)" -
+   C:\Xilinx\14.3\ISE_DS\ISE\data\zynqconfig\ps7_internals\pcores\ps7_usb_v1_00_
+   a\data\ps7_usb_v2_1_0.mpd line 134 
+WARNING:EDK:4131 - IPNAME: ps7_usb_0, PROPERTY: M_AXI_WREADY - Failure in
+   evaluting ISVALID expresion "(C_INCLUDE_DMA == 1)" -
+   C:\Xilinx\14.3\ISE_DS\ISE\data\zynqconfig\ps7_internals\pcores\ps7_usb_v1_00_
+   a\data\ps7_usb_v2_1_0.mpd line 135 
+WARNING:EDK:4131 - IPNAME: ps7_usb_0, PROPERTY: M_AXI_BID - Failure in evaluting
+   ISVALID expresion "(C_INCLUDE_DMA == 1)" -
+   C:\Xilinx\14.3\ISE_DS\ISE\data\zynqconfig\ps7_internals\pcores\ps7_usb_v1_00_
+   a\data\ps7_usb_v2_1_0.mpd line 136 
+WARNING:EDK:4131 - IPNAME: ps7_usb_0, PROPERTY: M_AXI_BRESP - Failure in
+   evaluting ISVALID expresion "(C_INCLUDE_DMA == 1)" -
+   C:\Xilinx\14.3\ISE_DS\ISE\data\zynqconfig\ps7_internals\pcores\ps7_usb_v1_00_
+   a\data\ps7_usb_v2_1_0.mpd line 137 
+WARNING:EDK:4131 - IPNAME: ps7_usb_0, PROPERTY: M_AXI_BVALID - Failure in
+   evaluting ISVALID expresion "(C_INCLUDE_DMA == 1)" -
+   C:\Xilinx\14.3\ISE_DS\ISE\data\zynqconfig\ps7_internals\pcores\ps7_usb_v1_00_
+   a\data\ps7_usb_v2_1_0.mpd line 138 
+WARNING:EDK:4131 - IPNAME: ps7_usb_0, PROPERTY: M_AXI_BREADY - Failure in
+   evaluting ISVALID expresion "(C_INCLUDE_DMA == 1)" -
+   C:\Xilinx\14.3\ISE_DS\ISE\data\zynqconfig\ps7_internals\pcores\ps7_usb_v1_00_
+   a\data\ps7_usb_v2_1_0.mpd line 139 
+WARNING:EDK:4131 - IPNAME: ps7_usb_0, PROPERTY: M_AXI_ARID - Failure in
+   evaluting ISVALID expresion "(C_INCLUDE_DMA == 1)" -
+   C:\Xilinx\14.3\ISE_DS\ISE\data\zynqconfig\ps7_internals\pcores\ps7_usb_v1_00_
+   a\data\ps7_usb_v2_1_0.mpd line 140 
+WARNING:EDK:4131 - IPNAME: ps7_usb_0, PROPERTY: M_AXI_ARADDR - Failure in
+   evaluting ISVALID expresion "(C_INCLUDE_DMA == 1)" -
+   C:\Xilinx\14.3\ISE_DS\ISE\data\zynqconfig\ps7_internals\pcores\ps7_usb_v1_00_
+   a\data\ps7_usb_v2_1_0.mpd line 141 
+WARNING:EDK:4131 - IPNAME: ps7_usb_0, PROPERTY: M_AXI_ARLEN - Failure in
+   evaluting ISVALID expresion "(C_INCLUDE_DMA == 1)" -
+   C:\Xilinx\14.3\ISE_DS\ISE\data\zynqconfig\ps7_internals\pcores\ps7_usb_v1_00_
+   a\data\ps7_usb_v2_1_0.mpd line 142 
+WARNING:EDK:4131 - IPNAME: ps7_usb_0, PROPERTY: M_AXI_ARSIZE - Failure in
+   evaluting ISVALID expresion "(C_INCLUDE_DMA == 1)" -
+   C:\Xilinx\14.3\ISE_DS\ISE\data\zynqconfig\ps7_internals\pcores\ps7_usb_v1_00_
+   a\data\ps7_usb_v2_1_0.mpd line 143 
+WARNING:EDK:4131 - IPNAME: ps7_usb_0, PROPERTY: M_AXI_ARBURST - Failure in
+   evaluting ISVALID expresion "(C_INCLUDE_DMA == 1)" -
+   C:\Xilinx\14.3\ISE_DS\ISE\data\zynqconfig\ps7_internals\pcores\ps7_usb_v1_00_
+   a\data\ps7_usb_v2_1_0.mpd line 144 
+WARNING:EDK:4131 - IPNAME: ps7_usb_0, PROPERTY: M_AXI_ARCACHE - Failure in
+   evaluting ISVALID expresion "(C_INCLUDE_DMA == 1)" -
+   C:\Xilinx\14.3\ISE_DS\ISE\data\zynqconfig\ps7_internals\pcores\ps7_usb_v1_00_
+   a\data\ps7_usb_v2_1_0.mpd line 145 
+WARNING:EDK:4131 - IPNAME: ps7_usb_0, PROPERTY: M_AXI_ARPROT - Failure in
+   evaluting ISVALID expresion "(C_INCLUDE_DMA == 1)" -
+   C:\Xilinx\14.3\ISE_DS\ISE\data\zynqconfig\ps7_internals\pcores\ps7_usb_v1_00_
+   a\data\ps7_usb_v2_1_0.mpd line 146 
+WARNING:EDK:4131 - IPNAME: ps7_usb_0, PROPERTY: M_AXI_ARLOCK - Failure in
+   evaluting ISVALID expresion "(C_INCLUDE_DMA == 1)" -
+   C:\Xilinx\14.3\ISE_DS\ISE\data\zynqconfig\ps7_internals\pcores\ps7_usb_v1_00_
+   a\data\ps7_usb_v2_1_0.mpd line 147 
+WARNING:EDK:4131 - IPNAME: ps7_usb_0, PROPERTY: M_AXI_ARVALID - Failure in
+   evaluting ISVALID expresion "(C_INCLUDE_DMA == 1)" -
+   C:\Xilinx\14.3\ISE_DS\ISE\data\zynqconfig\ps7_internals\pcores\ps7_usb_v1_00_
+   a\data\ps7_usb_v2_1_0.mpd line 148 
+WARNING:EDK:4131 - IPNAME: ps7_usb_0, PROPERTY: M_AXI_ARREADY - Failure in
+   evaluting ISVALID expresion "(C_INCLUDE_DMA == 1)" -
+   C:\Xilinx\14.3\ISE_DS\ISE\data\zynqconfig\ps7_internals\pcores\ps7_usb_v1_00_
+   a\data\ps7_usb_v2_1_0.mpd line 149 
+WARNING:EDK:4131 - IPNAME: ps7_usb_0, PROPERTY: M_AXI_RID - Failure in evaluting
+   ISVALID expresion "(C_INCLUDE_DMA == 1)" -
+   C:\Xilinx\14.3\ISE_DS\ISE\data\zynqconfig\ps7_internals\pcores\ps7_usb_v1_00_
+   a\data\ps7_usb_v2_1_0.mpd line 150 
+WARNING:EDK:4131 - IPNAME: ps7_usb_0, PROPERTY: M_AXI_RDATA - Failure in
+   evaluting ISVALID expresion "(C_INCLUDE_DMA == 1)" -
+   C:\Xilinx\14.3\ISE_DS\ISE\data\zynqconfig\ps7_internals\pcores\ps7_usb_v1_00_
+   a\data\ps7_usb_v2_1_0.mpd line 151 
+WARNING:EDK:4131 - IPNAME: ps7_usb_0, PROPERTY: M_AXI_RRESP - Failure in
+   evaluting ISVALID expresion "(C_INCLUDE_DMA == 1)" -
+   C:\Xilinx\14.3\ISE_DS\ISE\data\zynqconfig\ps7_internals\pcores\ps7_usb_v1_00_
+   a\data\ps7_usb_v2_1_0.mpd line 152 
+WARNING:EDK:4131 - IPNAME: ps7_usb_0, PROPERTY: M_AXI_RLAST - Failure in
+   evaluting ISVALID expresion "(C_INCLUDE_DMA == 1)" -
+   C:\Xilinx\14.3\ISE_DS\ISE\data\zynqconfig\ps7_internals\pcores\ps7_usb_v1_00_
+   a\data\ps7_usb_v2_1_0.mpd line 153 
+WARNING:EDK:4131 - IPNAME: ps7_usb_0, PROPERTY: M_AXI_RVALID - Failure in
+   evaluting ISVALID expresion "(C_INCLUDE_DMA == 1)" -
+   C:\Xilinx\14.3\ISE_DS\ISE\data\zynqconfig\ps7_internals\pcores\ps7_usb_v1_00_
+   a\data\ps7_usb_v2_1_0.mpd line 154 
+WARNING:EDK:4131 - IPNAME: ps7_usb_0, PROPERTY: M_AXI_RREADY - Failure in
+   evaluting ISVALID expresion "(C_INCLUDE_DMA == 1)" -
+   C:\Xilinx\14.3\ISE_DS\ISE\data\zynqconfig\ps7_internals\pcores\ps7_usb_v1_00_
+   a\data\ps7_usb_v2_1_0.mpd line 155 
+WARNING:EDK:4131 - IPNAME: ps7_usb_0, PROPERTY: M_AXI - Failure in evaluting
+   ISVALID expresion "(C_INCLUDE_DMA == 1)" -
+   C:\Xilinx\14.3\ISE_DS\ISE\data\zynqconfig\ps7_internals\pcores\ps7_usb_v1_00_
+   a\data\ps7_usb_v2_1_0.mpd line 73 
+WARNING:EDK:4131 - IPNAME: ps7_qspi_0, PROPERTY: SCK_I - Failure in evaluting
+   ISVALID expresion "(C_USE_STARTUP==0)" -
+   C:\Xilinx\14.3\ISE_DS\ISE\data\zynqconfig\ps7_internals\pcores\ps7_qspi_v1_00
+   _a\data\ps7_qspi_v2_1_0.mpd line 102 
+WARNING:EDK:4131 - IPNAME: ps7_qspi_0, PROPERTY: SCK_O - Failure in evaluting
+   ISVALID expresion "(C_USE_STARTUP==0)" -
+   C:\Xilinx\14.3\ISE_DS\ISE\data\zynqconfig\ps7_internals\pcores\ps7_qspi_v1_00
+   _a\data\ps7_qspi_v2_1_0.mpd line 103 
+WARNING:EDK:4131 - IPNAME: ps7_qspi_0, PROPERTY: SCK_T - Failure in evaluting
+   ISVALID expresion "(C_USE_STARTUP==0)" -
+   C:\Xilinx\14.3\ISE_DS\ISE\data\zynqconfig\ps7_internals\pcores\ps7_qspi_v1_00
+   _a\data\ps7_qspi_v2_1_0.mpd line 104 
+WARNING:EDK:4131 - IPNAME: ps7_qspi_0, PROPERTY: SCK - Failure in evaluting
+   ISVALID expresion "(C_USE_STARTUP==0)" -
+   C:\Xilinx\14.3\ISE_DS\ISE\data\zynqconfig\ps7_internals\pcores\ps7_qspi_v1_00
+   _a\data\ps7_qspi_v2_1_0.mpd line 122 
+
+Overriding IP level properties ...
+
+Computing clock values...
+
+Performing IP level DRCs on properties...
+
+Running DRC Tcl procedures for OPTION IPLEVEL_DRC_PROC...
+Address Map for Processor ps7_cortexa9_0
+  (0000000000-0x0002ffff) ps7_ram_0	ps7_axi_interconnect_0
+  (0x00100000-0x1fffffff) ps7_ddr_0	ps7_axi_interconnect_0
+  (0xe0001000-0xe0001fff) ps7_uart_1	ps7_axi_interconnect_0
+  (0xe0002000-0xe0002fff) ps7_usb_0	ps7_axi_interconnect_0
+  (0xe0004000-0xe0004fff) ps7_i2c_0	ps7_axi_interconnect_0
+  (0xe000a000-0xe000afff) ps7_gpio_0	ps7_axi_interconnect_0
+  (0xe000b000-0xe000bfff) ps7_ethernet_0	ps7_axi_interconnect_0
+  (0xe000d000-0xe000dfff) ps7_qspi_0	ps7_axi_interconnect_0
+  (0xe0100000-0xe0100fff) ps7_sd_0	ps7_axi_interconnect_0
+  (0xe0200000-0xe0200fff) ps7_iop_bus_config_0	ps7_axi_interconnect_0
+  (0xf8000000-0xf8000fff) ps7_slcr_0	ps7_axi_interconnect_0
+  (0xf8003000-0xf8003fff) ps7_dma_s	ps7_axi_interconnect_0
+  (0xf8004000-0xf8004fff) ps7_dma_ns	ps7_axi_interconnect_0
+  (0xf8006000-0xf8006fff) ps7_ddrc_0	ps7_axi_interconnect_0
+  (0xf8007000-0xf8007fff) ps7_dev_cfg_0	ps7_axi_interconnect_0
+  (0xf8008000-0xf8008fff) ps7_afi_0	ps7_axi_interconnect_0
+  (0xf8009000-0xf8009fff) ps7_afi_1	ps7_axi_interconnect_0
+  (0xf800a000-0xf800afff) ps7_afi_2	ps7_axi_interconnect_0
+  (0xf800b000-0xf800bfff) ps7_afi_3	ps7_axi_interconnect_0
+  (0xf8f00100-0xf8f001ff) ps7_scugic_0	ps7_axi_interconnect_0
+  (0xf8f00600-0xf8f0061f) ps7_scutimer_0	ps7_axi_interconnect_0
+  (0xf8f00620-0xf8f006ff) ps7_scuwdt_0	ps7_axi_interconnect_0
+  (0xfc000000-0xfcffffff) ps7_qspi_linear_0	ps7_axi_interconnect_0
+  (0xffff0000-0xfffffdff) ps7_ram_1	ps7_axi_interconnect_0
+Address Map for Processor ps7_cortexa9_1
+  (0000000000-0x0002ffff) ps7_ram_0	ps7_axi_interconnect_0
+  (0x00100000-0x1fffffff) ps7_ddr_0	ps7_axi_interconnect_0
+  (0xe0001000-0xe0001fff) ps7_uart_1	ps7_axi_interconnect_0
+  (0xe0002000-0xe0002fff) ps7_usb_0	ps7_axi_interconnect_0
+  (0xe0004000-0xe0004fff) ps7_i2c_0	ps7_axi_interconnect_0
+  (0xe000a000-0xe000afff) ps7_gpio_0	ps7_axi_interconnect_0
+  (0xe000b000-0xe000bfff) ps7_ethernet_0	ps7_axi_interconnect_0
+  (0xe000d000-0xe000dfff) ps7_qspi_0	ps7_axi_interconnect_0
+  (0xe0100000-0xe0100fff) ps7_sd_0	ps7_axi_interconnect_0
+  (0xe0200000-0xe0200fff) ps7_iop_bus_config_0	ps7_axi_interconnect_0
+  (0xf8000000-0xf8000fff) ps7_slcr_0	ps7_axi_interconnect_0
+  (0xf8003000-0xf8003fff) ps7_dma_s	ps7_axi_interconnect_0
+  (0xf8004000-0xf8004fff) ps7_dma_ns	ps7_axi_interconnect_0
+  (0xf8006000-0xf8006fff) ps7_ddrc_0	ps7_axi_interconnect_0
+  (0xf8007000-0xf8007fff) ps7_dev_cfg_0	ps7_axi_interconnect_0
+  (0xf8008000-0xf8008fff) ps7_afi_0	ps7_axi_interconnect_0
+  (0xf8009000-0xf8009fff) ps7_afi_1	ps7_axi_interconnect_0
+  (0xf800a000-0xf800afff) ps7_afi_2	ps7_axi_interconnect_0
+  (0xf800b000-0xf800bfff) ps7_afi_3	ps7_axi_interconnect_0
+  (0xf8f00100-0xf8f001ff) ps7_scugic_0	ps7_axi_interconnect_0
+  (0xf8f00600-0xf8f0061f) ps7_scutimer_0	ps7_axi_interconnect_0
+  (0xf8f00620-0xf8f006ff) ps7_scuwdt_0	ps7_axi_interconnect_0
+  (0xfc000000-0xfcffffff) ps7_qspi_linear_0	ps7_axi_interconnect_0
+  (0xffff0000-0xfffffdff) ps7_ram_1	ps7_axi_interconnect_0
+WARNING:EDK:4131 - IPNAME: ps7_usb_0, PROPERTY: C_INTERCONNECT_M_AXI_BASE_ID -
+   Failure in evaluting ISVALID expresion "(C_INCLUDE_DMA == 1)" -
+   C:\Xilinx\14.3\ISE_DS\EDK\data\coremodel\axi\data\tools_axi_v1_01_a.txt line
+   19 
+WARNING:EDK:4131 - IPNAME: ps7_usb_0, PROPERTY:
+   C_INTERCONNECT_M_AXI_IS_ACLK_ASYNC - Failure in evaluting ISVALID expresion
+   "(C_INCLUDE_DMA == 1)" -
+   C:\Xilinx\14.3\ISE_DS\EDK\data\coremodel\axi\data\tools_axi_v1_01_a.txt line
+   20 
+WARNING:EDK:4131 - IPNAME: ps7_usb_0, PROPERTY: C_INTERCONNECT_M_AXI_ACLK_RATIO
+   - Failure in evaluting ISVALID expresion "(C_INCLUDE_DMA == 1)" -
+   C:\Xilinx\14.3\ISE_DS\EDK\data\coremodel\axi\data\tools_axi_v1_01_a.txt line
+   21 
+WARNING:EDK:4131 - IPNAME: ps7_usb_0, PROPERTY:
+   C_INTERCONNECT_M_AXI_ARB_PRIORITY - Failure in evaluting ISVALID expresion
+   "(C_INCLUDE_DMA == 1)" -
+   C:\Xilinx\14.3\ISE_DS\EDK\data\coremodel\axi\data\tools_axi_v1_01_a.txt line
+   22 
+WARNING:EDK:4131 - IPNAME: ps7_usb_0, PROPERTY: C_INTERCONNECT_M_AXI_AW_REGISTER
+   - Failure in evaluting ISVALID expresion "(C_INCLUDE_DMA == 1)" -
+   C:\Xilinx\14.3\ISE_DS\EDK\data\coremodel\axi\data\tools_axi_v1_01_a.txt line
+   23 
+WARNING:EDK:4131 - IPNAME: ps7_usb_0, PROPERTY: C_INTERCONNECT_M_AXI_AR_REGISTER
+   - Failure in evaluting ISVALID expresion "(C_INCLUDE_DMA == 1)" -
+   C:\Xilinx\14.3\ISE_DS\EDK\data\coremodel\axi\data\tools_axi_v1_01_a.txt line
+   24 
+WARNING:EDK:4131 - IPNAME: ps7_usb_0, PROPERTY: C_INTERCONNECT_M_AXI_W_REGISTER
+   - Failure in evaluting ISVALID expresion "(C_INCLUDE_DMA == 1)" -
+   C:\Xilinx\14.3\ISE_DS\EDK\data\coremodel\axi\data\tools_axi_v1_01_a.txt line
+   25 
+WARNING:EDK:4131 - IPNAME: ps7_usb_0, PROPERTY: C_INTERCONNECT_M_AXI_R_REGISTER
+   - Failure in evaluting ISVALID expresion "(C_INCLUDE_DMA == 1)" -
+   C:\Xilinx\14.3\ISE_DS\EDK\data\coremodel\axi\data\tools_axi_v1_01_a.txt line
+   26 
+WARNING:EDK:4131 - IPNAME: ps7_usb_0, PROPERTY: C_INTERCONNECT_M_AXI_B_REGISTER
+   - Failure in evaluting ISVALID expresion "(C_INCLUDE_DMA == 1)" -
+   C:\Xilinx\14.3\ISE_DS\EDK\data\coremodel\axi\data\tools_axi_v1_01_a.txt line
+   27 
+WARNING:EDK:4131 - IPNAME: ps7_usb_0, PROPERTY:
+   C_INTERCONNECT_M_AXI_WRITE_FIFO_DEPTH - Failure in evaluting ISVALID
+   expresion "(C_INCLUDE_DMA == 1)" -
+   C:\Xilinx\14.3\ISE_DS\EDK\data\coremodel\axi\data\tools_axi_v1_01_a.txt line
+   28 
+WARNING:EDK:4131 - IPNAME: ps7_usb_0, PROPERTY:
+   C_INTERCONNECT_M_AXI_READ_FIFO_DEPTH - Failure in evaluting ISVALID expresion
+   "(C_INCLUDE_DMA == 1)" -
+   C:\Xilinx\14.3\ISE_DS\EDK\data\coremodel\axi\data\tools_axi_v1_01_a.txt line
+   29 
+WARNING:EDK:4131 - IPNAME: ps7_usb_0, PROPERTY:
+   C_INTERCONNECT_M_AXI_WRITE_ISSUING - Failure in evaluting ISVALID expresion
+   "(C_INCLUDE_DMA == 1)" -
+   C:\Xilinx\14.3\ISE_DS\EDK\data\coremodel\axi\data\tools_axi_v1_01_a.txt line
+   30 
+WARNING:EDK:4131 - IPNAME: ps7_usb_0, PROPERTY:
+   C_INTERCONNECT_M_AXI_READ_ISSUING - Failure in evaluting ISVALID expresion
+   "(C_INCLUDE_DMA == 1)" -
+   C:\Xilinx\14.3\ISE_DS\EDK\data\coremodel\axi\data\tools_axi_v1_01_a.txt line
+   31 
+WARNING:EDK:4131 - IPNAME: ps7_usb_0, PROPERTY: M_AXI_ACLK - Failure in
+   evaluting ISVALID expresion "(C_INCLUDE_DMA == 1)" -
+   C:\Xilinx\14.3\ISE_DS\ISE\data\zynqconfig\ps7_internals\pcores\ps7_usb_v1_00_
+   a\data\ps7_usb_v2_1_0.mpd line 119 
+WARNING:EDK:4131 - IPNAME: ps7_usb_0, PROPERTY: M_AXI_ARESETN - Failure in
+   evaluting ISVALID expresion "(C_INCLUDE_DMA == 1)" -
+   C:\Xilinx\14.3\ISE_DS\ISE\data\zynqconfig\ps7_internals\pcores\ps7_usb_v1_00_
+   a\data\ps7_usb_v2_1_0.mpd line 120 
+WARNING:EDK:4131 - IPNAME: ps7_usb_0, PROPERTY: M_AXI_AWID - Failure in
+   evaluting ISVALID expresion "(C_INCLUDE_DMA == 1)" -
+   C:\Xilinx\14.3\ISE_DS\ISE\data\zynqconfig\ps7_internals\pcores\ps7_usb_v1_00_
+   a\data\ps7_usb_v2_1_0.mpd line 121 
+WARNING:EDK:4131 - IPNAME: ps7_usb_0, PROPERTY: M_AXI_AWADDR - Failure in
+   evaluting ISVALID expresion "(C_INCLUDE_DMA == 1)" -
+   C:\Xilinx\14.3\ISE_DS\ISE\data\zynqconfig\ps7_internals\pcores\ps7_usb_v1_00_
+   a\data\ps7_usb_v2_1_0.mpd line 122 
+WARNING:EDK:4131 - IPNAME: ps7_usb_0, PROPERTY: M_AXI_AWLEN - Failure in
+   evaluting ISVALID expresion "(C_INCLUDE_DMA == 1)" -
+   C:\Xilinx\14.3\ISE_DS\ISE\data\zynqconfig\ps7_internals\pcores\ps7_usb_v1_00_
+   a\data\ps7_usb_v2_1_0.mpd line 123 
+WARNING:EDK:4131 - IPNAME: ps7_usb_0, PROPERTY: M_AXI_AWSIZE - Failure in
+   evaluting ISVALID expresion "(C_INCLUDE_DMA == 1)" -
+   C:\Xilinx\14.3\ISE_DS\ISE\data\zynqconfig\ps7_internals\pcores\ps7_usb_v1_00_
+   a\data\ps7_usb_v2_1_0.mpd line 124 
+WARNING:EDK:4131 - IPNAME: ps7_usb_0, PROPERTY: M_AXI_AWBURST - Failure in
+   evaluting ISVALID expresion "(C_INCLUDE_DMA == 1)" -
+   C:\Xilinx\14.3\ISE_DS\ISE\data\zynqconfig\ps7_internals\pcores\ps7_usb_v1_00_
+   a\data\ps7_usb_v2_1_0.mpd line 125 
+WARNING:EDK:4131 - IPNAME: ps7_usb_0, PROPERTY: M_AXI_AWCACHE - Failure in
+   evaluting ISVALID expresion "(C_INCLUDE_DMA == 1)" -
+   C:\Xilinx\14.3\ISE_DS\ISE\data\zynqconfig\ps7_internals\pcores\ps7_usb_v1_00_
+   a\data\ps7_usb_v2_1_0.mpd line 126 
+WARNING:EDK:4131 - IPNAME: ps7_usb_0, PROPERTY: M_AXI_AWPROT - Failure in
+   evaluting ISVALID expresion "(C_INCLUDE_DMA == 1)" -
+   C:\Xilinx\14.3\ISE_DS\ISE\data\zynqconfig\ps7_internals\pcores\ps7_usb_v1_00_
+   a\data\ps7_usb_v2_1_0.mpd line 127 
+WARNING:EDK:4131 - IPNAME: ps7_usb_0, PROPERTY: M_AXI_AWLOCK - Failure in
+   evaluting ISVALID expresion "(C_INCLUDE_DMA == 1)" -
+   C:\Xilinx\14.3\ISE_DS\ISE\data\zynqconfig\ps7_internals\pcores\ps7_usb_v1_00_
+   a\data\ps7_usb_v2_1_0.mpd line 128 
+WARNING:EDK:4131 - IPNAME: ps7_usb_0, PROPERTY: M_AXI_AWVALID - Failure in
+   evaluting ISVALID expresion "(C_INCLUDE_DMA == 1)" -
+   C:\Xilinx\14.3\ISE_DS\ISE\data\zynqconfig\ps7_internals\pcores\ps7_usb_v1_00_
+   a\data\ps7_usb_v2_1_0.mpd line 129 
+WARNING:EDK:4131 - IPNAME: ps7_usb_0, PROPERTY: M_AXI_AWREADY - Failure in
+   evaluting ISVALID expresion "(C_INCLUDE_DMA == 1)" -
+   C:\Xilinx\14.3\ISE_DS\ISE\data\zynqconfig\ps7_internals\pcores\ps7_usb_v1_00_
+   a\data\ps7_usb_v2_1_0.mpd line 130 
+WARNING:EDK:4131 - IPNAME: ps7_usb_0, PROPERTY: M_AXI_WDATA - Failure in
+   evaluting ISVALID expresion "(C_INCLUDE_DMA == 1)" -
+   C:\Xilinx\14.3\ISE_DS\ISE\data\zynqconfig\ps7_internals\pcores\ps7_usb_v1_00_
+   a\data\ps7_usb_v2_1_0.mpd line 131 
+WARNING:EDK:4131 - IPNAME: ps7_usb_0, PROPERTY: M_AXI_WSTRB - Failure in
+   evaluting ISVALID expresion "(C_INCLUDE_DMA == 1)" -
+   C:\Xilinx\14.3\ISE_DS\ISE\data\zynqconfig\ps7_internals\pcores\ps7_usb_v1_00_
+   a\data\ps7_usb_v2_1_0.mpd line 132 
+WARNING:EDK:4131 - IPNAME: ps7_usb_0, PROPERTY: M_AXI_WLAST - Failure in
+   evaluting ISVALID expresion "(C_INCLUDE_DMA == 1)" -
+   C:\Xilinx\14.3\ISE_DS\ISE\data\zynqconfig\ps7_internals\pcores\ps7_usb_v1_00_
+   a\data\ps7_usb_v2_1_0.mpd line 133 
+WARNING:EDK:4131 - IPNAME: ps7_usb_0, PROPERTY: M_AXI_WVALID - Failure in
+   evaluting ISVALID expresion "(C_INCLUDE_DMA == 1)" -
+   C:\Xilinx\14.3\ISE_DS\ISE\data\zynqconfig\ps7_internals\pcores\ps7_usb_v1_00_
+   a\data\ps7_usb_v2_1_0.mpd line 134 
+WARNING:EDK:4131 - IPNAME: ps7_usb_0, PROPERTY: M_AXI_WREADY - Failure in
+   evaluting ISVALID expresion "(C_INCLUDE_DMA == 1)" -
+   C:\Xilinx\14.3\ISE_DS\ISE\data\zynqconfig\ps7_internals\pcores\ps7_usb_v1_00_
+   a\data\ps7_usb_v2_1_0.mpd line 135 
+WARNING:EDK:4131 - IPNAME: ps7_usb_0, PROPERTY: M_AXI_BID - Failure in evaluting
+   ISVALID expresion "(C_INCLUDE_DMA == 1)" -
+   C:\Xilinx\14.3\ISE_DS\ISE\data\zynqconfig\ps7_internals\pcores\ps7_usb_v1_00_
+   a\data\ps7_usb_v2_1_0.mpd line 136 
+WARNING:EDK:4131 - IPNAME: ps7_usb_0, PROPERTY: M_AXI_BRESP - Failure in
+   evaluting ISVALID expresion "(C_INCLUDE_DMA == 1)" -
+   C:\Xilinx\14.3\ISE_DS\ISE\data\zynqconfig\ps7_internals\pcores\ps7_usb_v1_00_
+   a\data\ps7_usb_v2_1_0.mpd line 137 
+WARNING:EDK:4131 - IPNAME: ps7_usb_0, PROPERTY: M_AXI_BVALID - Failure in
+   evaluting ISVALID expresion "(C_INCLUDE_DMA == 1)" -
+   C:\Xilinx\14.3\ISE_DS\ISE\data\zynqconfig\ps7_internals\pcores\ps7_usb_v1_00_
+   a\data\ps7_usb_v2_1_0.mpd line 138 
+WARNING:EDK:4131 - IPNAME: ps7_usb_0, PROPERTY: M_AXI_BREADY - Failure in
+   evaluting ISVALID expresion "(C_INCLUDE_DMA == 1)" -
+   C:\Xilinx\14.3\ISE_DS\ISE\data\zynqconfig\ps7_internals\pcores\ps7_usb_v1_00_
+   a\data\ps7_usb_v2_1_0.mpd line 139 
+WARNING:EDK:4131 - IPNAME: ps7_usb_0, PROPERTY: M_AXI_ARID - Failure in
+   evaluting ISVALID expresion "(C_INCLUDE_DMA == 1)" -
+   C:\Xilinx\14.3\ISE_DS\ISE\data\zynqconfig\ps7_internals\pcores\ps7_usb_v1_00_
+   a\data\ps7_usb_v2_1_0.mpd line 140 
+WARNING:EDK:4131 - IPNAME: ps7_usb_0, PROPERTY: M_AXI_ARADDR - Failure in
+   evaluting ISVALID expresion "(C_INCLUDE_DMA == 1)" -
+   C:\Xilinx\14.3\ISE_DS\ISE\data\zynqconfig\ps7_internals\pcores\ps7_usb_v1_00_
+   a\data\ps7_usb_v2_1_0.mpd line 141 
+WARNING:EDK:4131 - IPNAME: ps7_usb_0, PROPERTY: M_AXI_ARLEN - Failure in
+   evaluting ISVALID expresion "(C_INCLUDE_DMA == 1)" -
+   C:\Xilinx\14.3\ISE_DS\ISE\data\zynqconfig\ps7_internals\pcores\ps7_usb_v1_00_
+   a\data\ps7_usb_v2_1_0.mpd line 142 
+WARNING:EDK:4131 - IPNAME: ps7_usb_0, PROPERTY: M_AXI_ARSIZE - Failure in
+   evaluting ISVALID expresion "(C_INCLUDE_DMA == 1)" -
+   C:\Xilinx\14.3\ISE_DS\ISE\data\zynqconfig\ps7_internals\pcores\ps7_usb_v1_00_
+   a\data\ps7_usb_v2_1_0.mpd line 143 
+WARNING:EDK:4131 - IPNAME: ps7_usb_0, PROPERTY: M_AXI_ARBURST - Failure in
+   evaluting ISVALID expresion "(C_INCLUDE_DMA == 1)" -
+   C:\Xilinx\14.3\ISE_DS\ISE\data\zynqconfig\ps7_internals\pcores\ps7_usb_v1_00_
+   a\data\ps7_usb_v2_1_0.mpd line 144 
+WARNING:EDK:4131 - IPNAME: ps7_usb_0, PROPERTY: M_AXI_ARCACHE - Failure in
+   evaluting ISVALID expresion "(C_INCLUDE_DMA == 1)" -
+   C:\Xilinx\14.3\ISE_DS\ISE\data\zynqconfig\ps7_internals\pcores\ps7_usb_v1_00_
+   a\data\ps7_usb_v2_1_0.mpd line 145 
+WARNING:EDK:4131 - IPNAME: ps7_usb_0, PROPERTY: M_AXI_ARPROT - Failure in
+   evaluting ISVALID expresion "(C_INCLUDE_DMA == 1)" -
+   C:\Xilinx\14.3\ISE_DS\ISE\data\zynqconfig\ps7_internals\pcores\ps7_usb_v1_00_
+   a\data\ps7_usb_v2_1_0.mpd line 146 
+WARNING:EDK:4131 - IPNAME: ps7_usb_0, PROPERTY: M_AXI_ARLOCK - Failure in
+   evaluting ISVALID expresion "(C_INCLUDE_DMA == 1)" -
+   C:\Xilinx\14.3\ISE_DS\ISE\data\zynqconfig\ps7_internals\pcores\ps7_usb_v1_00_
+   a\data\ps7_usb_v2_1_0.mpd line 147 
+WARNING:EDK:4131 - IPNAME: ps7_usb_0, PROPERTY: M_AXI_ARVALID - Failure in
+   evaluting ISVALID expresion "(C_INCLUDE_DMA == 1)" -
+   C:\Xilinx\14.3\ISE_DS\ISE\data\zynqconfig\ps7_internals\pcores\ps7_usb_v1_00_
+   a\data\ps7_usb_v2_1_0.mpd line 148 
+WARNING:EDK:4131 - IPNAME: ps7_usb_0, PROPERTY: M_AXI_ARREADY - Failure in
+   evaluting ISVALID expresion "(C_INCLUDE_DMA == 1)" -
+   C:\Xilinx\14.3\ISE_DS\ISE\data\zynqconfig\ps7_internals\pcores\ps7_usb_v1_00_
+   a\data\ps7_usb_v2_1_0.mpd line 149 
+WARNING:EDK:4131 - IPNAME: ps7_usb_0, PROPERTY: M_AXI_RID - Failure in evaluting
+   ISVALID expresion "(C_INCLUDE_DMA == 1)" -
+   C:\Xilinx\14.3\ISE_DS\ISE\data\zynqconfig\ps7_internals\pcores\ps7_usb_v1_00_
+   a\data\ps7_usb_v2_1_0.mpd line 150 
+WARNING:EDK:4131 - IPNAME: ps7_usb_0, PROPERTY: M_AXI_RDATA - Failure in
+   evaluting ISVALID expresion "(C_INCLUDE_DMA == 1)" -
+   C:\Xilinx\14.3\ISE_DS\ISE\data\zynqconfig\ps7_internals\pcores\ps7_usb_v1_00_
+   a\data\ps7_usb_v2_1_0.mpd line 151 
+WARNING:EDK:4131 - IPNAME: ps7_usb_0, PROPERTY: M_AXI_RRESP - Failure in
+   evaluting ISVALID expresion "(C_INCLUDE_DMA == 1)" -
+   C:\Xilinx\14.3\ISE_DS\ISE\data\zynqconfig\ps7_internals\pcores\ps7_usb_v1_00_
+   a\data\ps7_usb_v2_1_0.mpd line 152 
+WARNING:EDK:4131 - IPNAME: ps7_usb_0, PROPERTY: M_AXI_RLAST - Failure in
+   evaluting ISVALID expresion "(C_INCLUDE_DMA == 1)" -
+   C:\Xilinx\14.3\ISE_DS\ISE\data\zynqconfig\ps7_internals\pcores\ps7_usb_v1_00_
+   a\data\ps7_usb_v2_1_0.mpd line 153 
+WARNING:EDK:4131 - IPNAME: ps7_usb_0, PROPERTY: M_AXI_RVALID - Failure in
+   evaluting ISVALID expresion "(C_INCLUDE_DMA == 1)" -
+   C:\Xilinx\14.3\ISE_DS\ISE\data\zynqconfig\ps7_internals\pcores\ps7_usb_v1_00_
+   a\data\ps7_usb_v2_1_0.mpd line 154 
+WARNING:EDK:4131 - IPNAME: ps7_usb_0, PROPERTY: M_AXI_RREADY - Failure in
+   evaluting ISVALID expresion "(C_INCLUDE_DMA == 1)" -
+   C:\Xilinx\14.3\ISE_DS\ISE\data\zynqconfig\ps7_internals\pcores\ps7_usb_v1_00_
+   a\data\ps7_usb_v2_1_0.mpd line 155 
+WARNING:EDK:4131 - IPNAME: ps7_usb_0, PROPERTY: M_AXI - Failure in evaluting
+   ISVALID expresion "(C_INCLUDE_DMA == 1)" -
+   C:\Xilinx\14.3\ISE_DS\ISE\data\zynqconfig\ps7_internals\pcores\ps7_usb_v1_00_
+   a\data\ps7_usb_v2_1_0.mpd line 73 
+WARNING:EDK:4131 - IPNAME: ps7_qspi_0, PROPERTY: SCK_I - Failure in evaluting
+   ISVALID expresion "(C_USE_STARTUP==0)" -
+   C:\Xilinx\14.3\ISE_DS\ISE\data\zynqconfig\ps7_internals\pcores\ps7_qspi_v1_00
+   _a\data\ps7_qspi_v2_1_0.mpd line 102 
+WARNING:EDK:4131 - IPNAME: ps7_qspi_0, PROPERTY: SCK_O - Failure in evaluting
+   ISVALID expresion "(C_USE_STARTUP==0)" -
+   C:\Xilinx\14.3\ISE_DS\ISE\data\zynqconfig\ps7_internals\pcores\ps7_qspi_v1_00
+   _a\data\ps7_qspi_v2_1_0.mpd line 103 
+WARNING:EDK:4131 - IPNAME: ps7_qspi_0, PROPERTY: SCK_T - Failure in evaluting
+   ISVALID expresion "(C_USE_STARTUP==0)" -
+   C:\Xilinx\14.3\ISE_DS\ISE\data\zynqconfig\ps7_internals\pcores\ps7_qspi_v1_00
+   _a\data\ps7_qspi_v2_1_0.mpd line 104 
+WARNING:EDK:4131 - IPNAME: ps7_qspi_0, PROPERTY: SCK - Failure in evaluting
+   ISVALID expresion "(C_USE_STARTUP==0)" -
+   C:\Xilinx\14.3\ISE_DS\ISE\data\zynqconfig\ps7_internals\pcores\ps7_qspi_v1_00
+   _a\data\ps7_qspi_v2_1_0.mpd line 122 
+
+Checking platform address map ...
+WARNING:EDK -
+   C:\Xilinx\14.3\ISE_DS\ISE\data\zynqconfig\ps7_internals\pcores\ps7_i2c_v1_00_
+   a\data\ps7_i2c_v2_1_0.mpd line 108	Unknown PORT subproperty IIC Serial Data
+WARNING:EDK -
+   C:\Xilinx\14.3\ISE_DS\ISE\data\zynqconfig\ps7_internals\pcores\ps7_i2c_v1_00_
+   a\data\ps7_i2c_v2_1_0.mpd line 109	Unknown PORT subproperty IIC Serial Clock
+Conversion to XML complete.
+xdsgen -inp module_1.xmp -report SDK\SDK_Export\hw/module_1.html  -make_docs_local
+Release 14.3 - xdsgen EDK_P.40xd (nt)
+Copyright (c) 1995-2012 Xilinx, Inc.  All rights reserved.
+WARNING:EDK:4092 - IPNAME: processing_system7, INSTANCE: processing_system7_0 -
+   Pre-Production version not verified on hardware for architecture 'zynq' -
+   D:\zybo_home\zybo_home.srcs\sources_1\edk\module_1\module_1.mhs line 28 
+Generated Block Diagram.
+Rasterizing processing_system7_0.jpg.....
+Rasterizing module_1_blkd.jpg.....
+Report generated.
+Report generation completed.
+"*********************************************"
+"Running Xilinx Implementation tools.."
+"*********************************************"
+xflow -wd implementation -p xc7z010clg400-1 -implement xflow.opt module_1.ngc
+Release 14.3 - Xflow P.40xd (nt)
+Copyright (c) 1995-2012 Xilinx, Inc.  All rights reserved.
+xflow.exe -wd implementation -p xc7z010clg400-1 -implement xflow.opt
+module_1.ngc  
+PMSPEC -- Overriding Xilinx file <C:/Xilinx/14.3/ISE_DS/EDK/zynq/data/zynq.acd>
+with local file <C:/Xilinx/14.3/ISE_DS/ISE/zynq/data/zynq.acd>
+.... Copying flowfile C:/Xilinx/14.3/ISE_DS/ISE/xilinx/data/fpga.flw into
+working directory
+D:/zybo_home/zybo_home.srcs/sources_1/edk/module_1/implementation 
+
+Using Flow File:
+D:/zybo_home/zybo_home.srcs/sources_1/edk/module_1/implementation/fpga.flw 
+Using Option File(s): 
+ D:/zybo_home/zybo_home.srcs/sources_1/edk/module_1/implementation/xflow.opt 
+
+Creating Script File ... 
+
+#----------------------------------------------#
+# Starting program ngdbuild
+# ngdbuild -p xc7z010clg400-1 -nt timestamp -bm module_1.bmm
+"D:/zybo_home/zybo_home.srcs/sources_1/edk/module_1/implementation/module_1.ngc"
+-uc module_1.ucf module_1.ngd 
+#----------------------------------------------#
+Release 14.3 - ngdbuild P.40xd (nt)
+Copyright (c) 1995-2012 Xilinx, Inc.  All rights reserved.
+PMSPEC -- Overriding Xilinx file <C:/Xilinx/14.3/ISE_DS/EDK/zynq/data/zynq.acd>
+with local file <C:/Xilinx/14.3/ISE_DS/ISE/zynq/data/zynq.acd>
+
+Command Line: C:\Xilinx\14.3\ISE_DS\ISE\bin\nt\unwrapped\ngdbuild.exe -p
+xc7z010clg400-1 -nt timestamp -bm module_1.bmm
+D:/zybo_home/zybo_home.srcs/sources_1/edk/module_1/implementation/module_1.ngc
+-uc module_1.ucf module_1.ngd
+
+Reading NGO file
+"D:/zybo_home/zybo_home.srcs/sources_1/edk/module_1/implementation/module_1.ngc"
+...
+Loading design module
+"D:/zybo_home/zybo_home.srcs/sources_1/edk/module_1/implementation/module_1_proc
+essing_system7_0_wrapper.ngc"...
+Applying constraints in
+"D:/zybo_home/zybo_home.srcs/sources_1/edk/module_1/implementation/module_1_proc
+essing_system7_0_wrapper.ncf" to module "processing_system7_0"...
+Checking Constraint Associations...
+Gathering constraint information from source properties...
+Done.
+
+Annotating constraints to design from ucf file "module_1.ucf" ...
+Resolving constraint associations...
+Checking Constraint Associations...
+Done...
+
+Processing BMM file "module_1.bmm" ...
+
+WARNING::53 - File 'module_1.bmm' is empty or has no BMM content.
+
+
+Checking expanded design ...
+WARNING:NgdBuild:452 - logical net 'N129' has no driver
+WARNING:NgdBuild:452 - logical net 'N130' has no driver
+WARNING:NgdBuild:452 - logical net 'N131' has no driver
+WARNING:NgdBuild:452 - logical net 'N132' has no driver
+WARNING:NgdBuild:452 - logical net 'N133' has no driver
+WARNING:NgdBuild:452 - logical net 'N134' has no driver
+WARNING:NgdBuild:452 - logical net 'N135' has no driver
+WARNING:NgdBuild:452 - logical net 'N136' has no driver
+WARNING:NgdBuild:452 - logical net 'N137' has no driver
+WARNING:NgdBuild:452 - logical net 'N138' has no driver
+WARNING:NgdBuild:452 - logical net 'N139' has no driver
+WARNING:NgdBuild:452 - logical net 'N140' has no driver
+WARNING:NgdBuild:452 - logical net 'N141' has no driver
+WARNING:NgdBuild:452 - logical net 'N142' has no driver
+WARNING:NgdBuild:452 - logical net 'N143' has no driver
+WARNING:NgdBuild:452 - logical net 'N144' has no driver
+WARNING:NgdBuild:452 - logical net 'N145' has no driver
+WARNING:NgdBuild:452 - logical net 'N146' has no driver
+WARNING:NgdBuild:452 - logical net 'N147' has no driver
+WARNING:NgdBuild:452 - logical net 'N148' has no driver
+WARNING:NgdBuild:452 - logical net 'N149' has no driver
+WARNING:NgdBuild:452 - logical net 'N150' has no driver
+WARNING:NgdBuild:452 - logical net 'N151' has no driver
+WARNING:NgdBuild:452 - logical net 'N152' has no driver
+WARNING:NgdBuild:452 - logical net 'N153' has no driver
+WARNING:NgdBuild:452 - logical net 'N154' has no driver
+WARNING:NgdBuild:452 - logical net 'N155' has no driver
+WARNING:NgdBuild:452 - logical net 'N156' has no driver
+WARNING:NgdBuild:452 - logical net 'N157' has no driver
+WARNING:NgdBuild:452 - logical net 'N158' has no driver
+WARNING:NgdBuild:452 - logical net 'N159' has no driver
+WARNING:NgdBuild:452 - logical net 'N160' has no driver
+WARNING:NgdBuild:452 - logical net 'N161' has no driver
+WARNING:NgdBuild:452 - logical net 'N162' has no driver
+WARNING:NgdBuild:452 - logical net 'N163' has no driver
+WARNING:NgdBuild:452 - logical net 'N164' has no driver
+WARNING:NgdBuild:452 - logical net 'N165' has no driver
+WARNING:NgdBuild:452 - logical net 'N166' has no driver
+WARNING:NgdBuild:452 - logical net 'N167' has no driver
+WARNING:NgdBuild:452 - logical net 'N168' has no driver
+WARNING:NgdBuild:452 - logical net 'N169' has no driver
+WARNING:NgdBuild:452 - logical net 'N170' has no driver
+WARNING:NgdBuild:452 - logical net 'N171' has no driver
+WARNING:NgdBuild:452 - logical net 'N172' has no driver
+WARNING:NgdBuild:452 - logical net 'N173' has no driver
+WARNING:NgdBuild:452 - logical net 'N174' has no driver
+WARNING:NgdBuild:452 - logical net 'N175' has no driver
+WARNING:NgdBuild:452 - logical net 'N176' has no driver
+WARNING:NgdBuild:452 - logical net 'N177' has no driver
+WARNING:NgdBuild:452 - logical net 'N178' has no driver
+WARNING:NgdBuild:452 - logical net 'N179' has no driver
+WARNING:NgdBuild:452 - logical net 'N180' has no driver
+WARNING:NgdBuild:452 - logical net 'N181' has no driver
+WARNING:NgdBuild:452 - logical net 'N182' has no driver
+WARNING:NgdBuild:452 - logical net 'N183' has no driver
+WARNING:NgdBuild:452 - logical net 'N184' has no driver
+WARNING:NgdBuild:452 - logical net 'N185' has no driver
+WARNING:NgdBuild:452 - logical net 'N186' has no driver
+WARNING:NgdBuild:452 - logical net 'N187' has no driver
+WARNING:NgdBuild:452 - logical net 'N188' has no driver
+WARNING:NgdBuild:452 - logical net 'N189' has no driver
+WARNING:NgdBuild:452 - logical net 'N190' has no driver
+WARNING:NgdBuild:452 - logical net 'N191' has no driver
+WARNING:NgdBuild:452 - logical net 'N192' has no driver
+WARNING:NgdBuild:452 - logical net 'N193' has no driver
+WARNING:NgdBuild:452 - logical net 'N194' has no driver
+WARNING:NgdBuild:452 - logical net 'N195' has no driver
+WARNING:NgdBuild:452 - logical net 'N196' has no driver
+WARNING:NgdBuild:452 - logical net 'N197' has no driver
+WARNING:NgdBuild:452 - logical net 'N198' has no driver
+WARNING:NgdBuild:452 - logical net 'N199' has no driver
+WARNING:NgdBuild:452 - logical net 'N200' has no driver
+WARNING:NgdBuild:452 - logical net 'N201' has no driver
+WARNING:NgdBuild:452 - logical net 'N202' has no driver
+WARNING:NgdBuild:452 - logical net 'N203' has no driver
+WARNING:NgdBuild:452 - logical net 'N204' has no driver
+WARNING:NgdBuild:452 - logical net 'N205' has no driver
+WARNING:NgdBuild:452 - logical net 'N206' has no driver
+WARNING:NgdBuild:452 - logical net 'N207' has no driver
+WARNING:NgdBuild:452 - logical net 'N208' has no driver
+WARNING:NgdBuild:452 - logical net 'N209' has no driver
+WARNING:NgdBuild:452 - logical net 'N210' has no driver
+WARNING:NgdBuild:452 - logical net 'N211' has no driver
+WARNING:NgdBuild:452 - logical net 'N212' has no driver
+WARNING:NgdBuild:452 - logical net 'N213' has no driver
+WARNING:NgdBuild:452 - logical net 'N214' has no driver
+WARNING:NgdBuild:452 - logical net 'N215' has no driver
+WARNING:NgdBuild:452 - logical net 'N216' has no driver
+WARNING:NgdBuild:452 - logical net 'N217' has no driver
+WARNING:NgdBuild:452 - logical net 'N218' has no driver
+WARNING:NgdBuild:452 - logical net 'N219' has no driver
+WARNING:NgdBuild:452 - logical net 'N220' has no driver
+WARNING:NgdBuild:452 - logical net 'N221' has no driver
+WARNING:NgdBuild:452 - logical net 'N222' has no driver
+WARNING:NgdBuild:452 - logical net 'N223' has no driver
+WARNING:NgdBuild:452 - logical net 'N224' has no driver
+WARNING:NgdBuild:452 - logical net 'N225' has no driver
+WARNING:NgdBuild:452 - logical net 'N226' has no driver
+WARNING:NgdBuild:452 - logical net 'N227' has no driver
+WARNING:NgdBuild:452 - logical net 'N228' has no driver
+WARNING:NgdBuild:452 - logical net 'N229' has no driver
+WARNING:NgdBuild:452 - logical net 'N230' has no driver
+WARNING:NgdBuild:452 - logical net 'N231' has no driver
+WARNING:NgdBuild:452 - logical net 'N232' has no driver
+WARNING:NgdBuild:452 - logical net 'N233' has no driver
+WARNING:NgdBuild:452 - logical net 'N234' has no driver
+WARNING:NgdBuild:452 - logical net 'N235' has no driver
+WARNING:NgdBuild:452 - logical net 'N236' has no driver
+WARNING:NgdBuild:452 - logical net 'N237' has no driver
+WARNING:NgdBuild:452 - logical net 'N238' has no driver
+WARNING:NgdBuild:452 - logical net 'N239' has no driver
+WARNING:NgdBuild:452 - logical net 'N240' has no driver
+WARNING:NgdBuild:452 - logical net 'N241' has no driver
+WARNING:NgdBuild:452 - logical net 'N242' has no driver
+WARNING:NgdBuild:452 - logical net 'N243' has no driver
+WARNING:NgdBuild:452 - logical net 'N244' has no driver
+WARNING:NgdBuild:452 - logical net 'N245' has no driver
+WARNING:NgdBuild:452 - logical net 'N246' has no driver
+WARNING:NgdBuild:452 - logical net 'N247' has no driver
+WARNING:NgdBuild:452 - logical net 'N248' has no driver
+WARNING:NgdBuild:452 - logical net 'N249' has no driver
+WARNING:NgdBuild:452 - logical net 'N250' has no driver
+WARNING:NgdBuild:452 - logical net 'N251' has no driver
+WARNING:NgdBuild:452 - logical net 'N252' has no driver
+WARNING:NgdBuild:452 - logical net 'N253' has no driver
+WARNING:NgdBuild:452 - logical net 'N254' has no driver
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+NGDBUILD Design Results Summary:
+  Number of errors:     0
+  Number of warnings: 126
+
+Writing NGD file "module_1.ngd" ...
+Total REAL time to NGDBUILD completion:  17 sec
+Total CPU time to NGDBUILD completion:   14 sec
+
+Writing NGDBUILD log file "module_1.bld"...
+
+NGDBUILD done.
+
+
+
+#----------------------------------------------#
+# Starting program map
+# map -o module_1_map.ncd -w -pr b -ol high -timing -detail module_1.ngd
+module_1.pcf 
+#----------------------------------------------#
+Release 14.3 - Map P.40xd (nt)
+Copyright (c) 1995-2012 Xilinx, Inc.  All rights reserved.
+PMSPEC -- Overriding Xilinx file
+<C:/Xilinx/14.3/ISE_DS/EDK/data/Xdh_PrimTypeLib.xda> with local file
+<C:/Xilinx/14.3/ISE_DS/ISE/data/Xdh_PrimTypeLib.xda>
+Using target part "7z010clg400-1".
+Mapping design into LUTs...
+Writing file module_1_map.ngm...
+Running directed packing...
+Running delay-based LUT packing...
+Updating timing models...
+INFO:Map:215 - The Interim Design Summary has been generated in the MAP Report
+   (.mrp).
+Running timing-driven placement...
+Total REAL time at the beginning of Placer: 38 secs 
+Total CPU  time at the beginning of Placer: 32 secs 
+
+Phase 1.1  Initial Placement Analysis
+Phase 1.1  Initial Placement Analysis (Checksum:3943c30) REAL time: 41 secs 
+
+Phase 2.7  Design Feasibility Check
+Phase 2.7  Design Feasibility Check (Checksum:3943c30) REAL time: 41 secs 
+
+Phase 3.31  Local Placement Optimization
+Phase 3.31  Local Placement Optimization (Checksum:3943c30) REAL time: 41 secs 
+
+Phase 4.2  Initial Placement for Architecture Specific Features
+Phase 4.2  Initial Placement for Architecture Specific Features
+(Checksum:3943c30) REAL time: 42 secs 
+
+Phase 5.30  Global Clock Region Assignment
+Phase 5.30  Global Clock Region Assignment (Checksum:3943c30) REAL time: 42 secs 
+
+Phase 6.3  Local Placement Optimization
+Phase 6.3  Local Placement Optimization (Checksum:3943c30) REAL time: 42 secs 
+
+Phase 7.5  Local Placement Optimization
+Phase 7.5  Local Placement Optimization (Checksum:3943c30) REAL time: 42 secs 
+
+Phase 8.8  Global Placement
+Phase 8.8  Global Placement (Checksum:3943c30) REAL time: 42 secs 
+
+Phase 9.5  Local Placement Optimization
+Phase 9.5  Local Placement Optimization (Checksum:3943c30) REAL time: 42 secs 
+
+Phase 10.18  Placement Optimization
+Phase 10.18  Placement Optimization (Checksum:3943c30) REAL time: 42 secs 
+
+Phase 11.5  Local Placement Optimization
+Phase 11.5  Local Placement Optimization (Checksum:3943c30) REAL time: 42 secs 
+
+Phase 12.34  Placement Validation
+Phase 12.34  Placement Validation (Checksum:3943c30) REAL time: 42 secs 
+
+Total REAL time to Placer completion: 42 secs 
+Total CPU  time to Placer completion: 34 secs 
+Running post-placement packing...
+Writing output files...
+
+Design Summary:
+Number of errors:      0
+Number of warnings:    0
+Slice Logic Utilization:
+  Number of Slice Registers:                     0 out of  35,200    0
+  Number of Slice LUTs:                          0 out of  17,600    0
+
+Slice Logic Distribution:
+  Number of occupied Slices:                     0 out of   4,400    0
+  Number of LUT Flip Flop pairs used:            0
+
+IO Utilization:
+  Number of bonded IOBs:                         0 out of     100    0
+  Number of bonded IOPAD:                      130 out of     130  100
+
+Specific Feature Utilization:
+  Number of RAMB36E1/FIFO36E1s:                  0 out of      60    0
+  Number of RAMB18E1/FIFO18E1s:                  0 out of     120    0
+  Number of BUFG/BUFGCTRLs:                      0 out of      32    0
+  Number of IDELAYE2/IDELAYE2_FINEDELAYs:        0 out of     100    0
+  Number of ILOGICE2/ILOGICE3/ISERDESE2s:        0 out of     100    0
+  Number of ODELAYE2/ODELAYE2_FINEDELAYs:        0
+  Number of OLOGICE2/OLOGICE3/OSERDESE2s:        0 out of     100    0
+  Number of PHASER_IN/PHASER_IN_PHYs:            0 out of       8    0
+  Number of PHASER_OUT/PHASER_OUT_PHYs:          0 out of       8    0
+  Number of BSCANs:                              0 out of       4    0
+  Number of BUFHCEs:                             0 out of      48    0
+  Number of BUFRs:                               0 out of       8    0
+  Number of CAPTUREs:                            0 out of       1    0
+  Number of DNA_PORTs:                           0 out of       1    0
+  Number of DSP48E1s:                            0 out of      80    0
+  Number of EFUSE_USRs:                          0 out of       1    0
+  Number of FRAME_ECCs:                          0 out of       1    0
+  Number of ICAPs:                               0 out of       2    0
+  Number of IDELAYCTRLs:                         0 out of       2    0
+  Number of IN_FIFOs:                            0 out of       8    0
+  Number of MMCME2_ADVs:                         0 out of       2    0
+  Number of OUT_FIFOs:                           0 out of       8    0
+  Number of PHASER_REFs:                         0 out of       2    0
+  Number of PHY_CONTROLs:                        0 out of       2    0
+  Number of PLLE2_ADVs:                          0 out of       2    0
+  Number of PS7s:                                1 out of       1  100
+  Number of STARTUPs:                            0 out of       1    0
+  Number of XADCs:                               0 out of       1    0
+
+Average Fanout of Non-Clock Nets:                0.00
+
+Peak Memory Usage:  440 MB
+Total REAL time to MAP completion:  44 secs 
+Total CPU time to MAP completion:   36 secs 
+
+Mapping completed.
+See MAP report file "module_1_map.mrp" for details.
+
+
+
+#----------------------------------------------#
+# Starting program par
+# par -w -ol high module_1_map.ncd module_1.ncd module_1.pcf 
+#----------------------------------------------#
+Release 14.3 - par P.40xd (nt)
+Copyright (c) 1995-2012 Xilinx, Inc.  All rights reserved.
+PMSPEC -- Overriding Xilinx file <C:/Xilinx/14.3/ISE_DS/EDK/data/parBmgr.acd> with local file
+<C:/Xilinx/14.3/ISE_DS/ISE/data/parBmgr.acd>
+
+
+
+Constraints file: module_1.pcf.
+Loading device for application Rf_Device from file '7z010.nph' in environment
+C:\Xilinx\14.3\ISE_DS\ISE\;C:\Xilinx\14.3\ISE_DS\EDK.
+   "module_1" is an NCD, version 3.2, device xc7z010, package clg400, speed -1
+
+Initializing temperature to 85.000 Celsius. (default - Range: 0.000 to 85.000 Celsius)
+Initializing voltage to 0.950 Volts. (default - Range: 0.950 to 1.050 Volts)
+
+INFO:Par:282 - No user timing constraints were detected or you have set the option to ignore timing constraints ("par
+   -x"). Place and Route will run in "Performance Evaluation Mode" to automatically improve the performance of all
+   internal clocks in this design. Because there are not defined timing requirements, a timing score will not be
+   reported in the PAR report in this mode. The PAR timing summary will list the performance achieved for each clock.
+   Note: For the fastest runtime, set the effort level to "std".  For best performance, set the effort level to "high".
+
+Device speed data version:  "ADVANCED 1.03 2012-10-12".
+
+
+
+Device Utilization Summary:
+
+   Number of External IOPADs               130 out of 130   100
+      Number of LOCed IOPADs               130 out of 130   100
+
+   Number of PS7s                            1 out of 1     100
+   Number of Slices                          0 out of 4400    0
+   Number of Slice Registers                 0 out of 35200   0
+      Number used as Flip Flops              0
+      Number used as Latches                 0
+      Number used as LatchThrus              0
+
+   Number of Slice LUTS                      0 out of 17600   0
+   Number of Slice LUT-Flip Flop pairs       0 out of 17600   0
+
+
+Overall effort level (-ol):   High 
+Router effort level (-rl):    High 
+
+Starting initial Timing Analysis.  REAL time: 21 secs 
+Finished initial Timing Analysis.  REAL time: 21 secs 
+
+Starting Router
+
+
+Phase  1  : 1774 unrouted;      REAL time: 22 secs 
+
+Phase  2  : 3 unrouted;      REAL time: 22 secs 
+
+Phase  3  : 0 unrouted;      REAL time: 23 secs 
+
+Phase  4  : 0 unrouted; (Par is working to improve performance)     REAL time: 25 secs 
+
+Updating file: module_1.ncd with current fully routed design.
+
+Phase  5  : 0 unrouted; (Par is working to improve performance)     REAL time: 26 secs 
+
+Phase  6  : 0 unrouted; (Par is working to improve performance)     REAL time: 26 secs 
+
+Phase  7  : 0 unrouted; (Par is working to improve performance)     REAL time: 26 secs 
+
+Phase  8  : 0 unrouted; (Par is working to improve performance)     REAL time: 26 secs 
+
+Phase  9  : 0 unrouted; (Par is working to improve performance)     REAL time: 26 secs 
+Total REAL time to Router completion: 26 secs 
+Total CPU time to Router completion: 25 secs 
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+Generating "PAR" statistics.
+
+Timing Score: 0 (Setup: 0, Hold: 0)
+
+
+
+Generating Pad Report.
+
+All signals are completely routed.
+
+Total REAL time to PAR completion: 27 secs 
+Total CPU time to PAR completion: 26 secs 
+
+Peak Memory Usage:  376 MB
+
+Placer: Placement generated during map.
+Routing: Completed - No errors found.
+
+Number of error messages: 0
+Number of warning messages: 0
+Number of info messages: 1
+
+Writing design to file module_1.ncd
+
+
+
+PAR done!
+
+
+
+#----------------------------------------------#
+# Starting program post_par_trce
+# trce -e 3 -xml module_1.twx module_1.ncd module_1.pcf 
+#----------------------------------------------#
+Release 14.3 - Trace  (nt)
+Copyright (c) 1995-2012 Xilinx, Inc.  All rights reserved.
+
+
+PMSPEC -- Overriding Xilinx file <C:/Xilinx/14.3/ISE_DS/EDK/zynq/data/zynq.acd>
+with local file <C:/Xilinx/14.3/ISE_DS/ISE/zynq/data/zynq.acd>
+Loading device for application Rf_Device from file '7z010.nph' in environment
+C:\Xilinx\14.3\ISE_DS\ISE\;C:\Xilinx\14.3\ISE_DS\EDK.
+   "module_1" is an NCD, version 3.2, device xc7z010, package clg400, speed -1
+INFO:Timing:2698 - No timing constraints found, doing default enumeration.
+--------------------------------------------------------------------------------
+Release 14.3 Trace  (nt)
+Copyright (c) 1995-2012 Xilinx, Inc.  All rights reserved.
+
+C:\Xilinx\14.3\ISE_DS\ISE\bin\nt\unwrapped\trce.exe -e 3 -xml module_1.twx
+module_1.ncd module_1.pcf
+
+
+Design file:              module_1.ncd
+Physical constraint file: module_1.pcf
+Device,speed:             xc7z010,-1 (ADVANCED 1.03 2012-10-12)
+Report level:             error report
+--------------------------------------------------------------------------------
+
+INFO:Timing:3412 - To improve timing, see the Timing Closure User Guide (UG612).
+INFO:Timing:2752 - To get complete path coverage, use the unconstrained paths option. All paths that are not constrained will be reported in
+   the unconstrained paths section(s) of the report.
+INFO:Timing:3339 - The clock-to-out numbers in this timing report are based on a 50 Ohm transmission line loading model.  For the details of
+   this model, and for more information on accounting for different loading conditions, please see the device datasheet.
+
+Analysis completed Fri May 09 09:48:55 2014
+--------------------------------------------------------------------------------
+
+Generating Report ...
+
+Number of warnings: 0
+Number of info messages: 4
+Total time: 22 secs 
+
+
+xflow done!
+touch __xps/module_1_routed
+xilperl C:/Xilinx/14.3/ISE_DS/EDK/data/fpga_impl/observe_par.pl -error yes implementation/module_1.par
+Analyzing implementation/module_1.par
+"*********************************************"
+"Running Bitgen.."
+"*********************************************"
+cd implementation & bitgen -w -f bitgen.ut module_1 & cd ..
+Release 14.3 - Bitgen P.40xd (nt)
+Copyright (c) 1995-2012 Xilinx, Inc.  All rights reserved.
+PMSPEC -- Overriding Xilinx file <C:/Xilinx/14.3/ISE_DS/EDK/zynq/data/zynq.acd>
+with local file <C:/Xilinx/14.3/ISE_DS/ISE/zynq/data/zynq.acd>
+Loading device for application Rf_Device from file '7z010.nph' in environment
+C:\Xilinx\14.3\ISE_DS\ISE\;C:\Xilinx\14.3\ISE_DS\EDK.
+   "module_1" is an NCD, version 3.2, device xc7z010, package clg400, speed -1
+Opened constraints file module_1.pcf.
+
+Fri May 09 09:49:15 2014
+
+Running DRC.
+DRC detected 0 errors and 0 warnings.
+Creating bit map...
+Saving bit stream in "module_1.bit".
+Bitstream generation is complete.
+Done!
+
+********************************************************************************
+At Local date and time: Fri May 09 09:49:41 2014
+ xsdk.exe -hwspec D:\zybo_home\zybo_home.srcs\sources_1\edk\module_1\SDK\SDK_Export\hw\module_1.xml started...
+Xilinx Software Development Kit
+Xilinx EDK 14.3 Build EDK_P.40xd
+Copyright (c) 1995-2012 Xilinx, Inc.  All rights reserved.
+Done!
+
+********************************************************************************
+At Local date and time: Fri May 09 09:53:11 2014
+ make -f module_1.make exporttosdk started...
+make: Nothing to be done for `exporttosdk'.
+Done!
+
+********************************************************************************
+At Local date and time: Fri May 09 09:53:11 2014
+ xsdk.exe -hwspec D:\zybo_home\zybo_home.srcs\sources_1\edk\module_1\SDK\SDK_Export\hw\module_1.xml started...
+Xilinx Software Development Kit
+Xilinx EDK 14.3 Build EDK_P.40xd
+Copyright (c) 1995-2012 Xilinx, Inc.  All rights reserved.
+Done!
+
+********************************************************************************
+At Local date and time: Fri May 09 09:59:01 2014
+ make -f module_1.make exporttosdk started...
+make: Nothing to be done for `exporttosdk'.
+Done!
+
+********************************************************************************
+At Local date and time: Fri May 09 09:59:01 2014
+ xsdk.exe -hwspec D:\zybo_home\zybo_home.srcs\sources_1\edk\module_1\SDK\SDK_Export\hw\module_1.xml started...
+Xilinx Software Development Kit
+Xilinx EDK 14.3 Build EDK_P.40xd
+Copyright (c) 1995-2012 Xilinx, Inc.  All rights reserved.
+Done!
+
+********************************************************************************
+At Local date and time: Fri May 09 10:01:40 2014
+ make -f module_1.make exporttosdk started...
+make: Nothing to be done for `exporttosdk'.
+Done!
+
+********************************************************************************
+At Local date and time: Fri May 09 10:01:40 2014
+ xsdk.exe -hwspec D:\zybo_home\zybo_home.srcs\sources_1\edk\module_1\SDK\SDK_Export\hw\module_1.xml started...
+Xilinx Software Development Kit
+Xilinx EDK 14.3 Build EDK_P.40xd
+Copyright (c) 1995-2012 Xilinx, Inc.  All rights reserved.
+Done!
+
+********************************************************************************
+At Local date and time: Fri May 09 10:14:37 2014
+ make -f module_1.make exporttosdk started...
+make: Nothing to be done for `exporttosdk'.
+Done!
+
+********************************************************************************
+At Local date and time: Fri May 09 10:14:37 2014
+ xsdk.exe -hwspec D:\zybo_home\zybo_home.srcs\sources_1\edk\module_1\SDK\SDK_Export\hw\module_1.xml started...
+Xilinx Software Development Kit
+Xilinx EDK 14.3 Build EDK_P.40xd
+Copyright (c) 1995-2012 Xilinx, Inc.  All rights reserved.
+Done!
+
+********************************************************************************
+At Local date and time: Fri May 09 10:15:51 2014
+ make -f module_1.make exporttosdk started...
+make: Nothing to be done for `exporttosdk'.
+Done!
+
+********************************************************************************
+At Local date and time: Fri May 09 10:15:51 2014
+ xsdk.exe -hwspec D:\zybo_home\zybo_home.srcs\sources_1\edk\module_1\SDK\SDK_Export\hw\module_1.xml started...
+Xilinx Software Development Kit
+Xilinx EDK 14.3 Build EDK_P.40xd
+Copyright (c) 1995-2012 Xilinx, Inc.  All rights reserved.
+Done!
+
+********************************************************************************
+At Local date and time: Fri May 09 10:17:43 2014
+ make -f module_1.make exporttosdk started...
+make: Nothing to be done for `exporttosdk'.
+Done!
+
+********************************************************************************
+At Local date and time: Fri May 09 10:17:43 2014
+ xsdk.exe -hwspec D:\zybo_home\zybo_home.srcs\sources_1\edk\module_1\SDK\SDK_Export\hw\module_1.xml started...
+Xilinx Software Development Kit
+Xilinx EDK 14.3 Build EDK_P.40xd
+Copyright (c) 1995-2012 Xilinx, Inc.  All rights reserved.
+Done!
+
+********************************************************************************
+At Local date and time: Fri May 09 10:19:32 2014
+ make -f module_1.make exporttosdk started...
+make: Nothing to be done for `exporttosdk'.
+Done!
+
+********************************************************************************
+At Local date and time: Fri May 09 10:19:32 2014
+ xsdk.exe -hwspec D:\zybo_home\zybo_home.srcs\sources_1\edk\module_1\SDK\SDK_Export\hw\module_1.xml started...
+Xilinx Software Development Kit
+Xilinx EDK 14.3 Build EDK_P.40xd
+Copyright (c) 1995-2012 Xilinx, Inc.  All rights reserved.
+Done!
+
+********************************************************************************
+At Local date and time: Fri May 09 10:20:58 2014
+ make -f module_1.make exporttosdk started...
+make: Nothing to be done for `exporttosdk'.
+Done!
+
+********************************************************************************
+At Local date and time: Fri May 09 10:20:59 2014
+ xsdk.exe -hwspec D:\zybo_home\zybo_home.srcs\sources_1\edk\module_1\SDK\SDK_Export\hw\module_1.xml started...
+Xilinx Software Development Kit
+Xilinx EDK 14.3 Build EDK_P.40xd
+Copyright (c) 1995-2012 Xilinx, Inc.  All rights reserved.
+Done!
+Writing filter settings....
+Done writing filter settings to:
+	D:\zybo_home\zybo_home.srcs\sources_1\edk\module_1\etc\module_1.filters
+Done writing Tab View settings to:
+	D:\zybo_home\zybo_home.srcs\sources_1\edk\module_1\etc\module_1.gui
